@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: TURTLE
-description: | I like turtles
+description: Turtles are pretty cool
 github_username: h4seeb-cmd
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "turtle"
