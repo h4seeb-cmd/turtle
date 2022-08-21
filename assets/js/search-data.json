@@ -13,10 +13,10 @@
   
     
         ,"post1": {
-            "title": "My First Post",
-            "content": "{ “cells”: [ { “cell_type”: “markdown”, “metadata”: {}, “source”: [ “# Welcome to Turtle! n”, “&gt;My first ever blog post, who I am!” ] }, { “cell_type”: “markdown”, “metadata”: {}, “source”: [ “- toc: true n”, “- branch: master n”, “- badges: true n”, “- comments: true n”, “- author: Haseeb Beg” ] }, { “cell_type”: “markdown”, “metadata”: {}, “source”: [ “# Hello World! 🌎 n”, “ n”, “&gt;This is my very first blog post on this website! My name is Haseeb Beg, and I can’t wait to learn more about CS! n”, “ n”, “ n”, “## My Interests n”, “ n”, “&gt;I have a lot of things I like to do, some of them are: n”, “- Music Production 🎹 n”, “- Working Out 💪 n”, “- Gaming 🎮 n”, “ n”, “ n”, “## Thanks For Reading! n”, “ n”, “&gt;Comment down below if you have any suggestions as to how I could improve my blog! “ ] } ], “metadata”: { “kernelspec”: { “display_name”: “Python 3.8.10 64-bit”, “language”: “python”, “name”: “python3” }, “language_info”: { “name”: “python”, “version”: “3.8.10” }, “orig_nbformat”: 4, “vscode”: { “interpreter”: { “hash”: “916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1” } } }, “nbformat”: 4, “nbformat_minor”: 2 } .",
-            "url": "https://h4seeb-cmd.github.io/turtle/2022/08/21/My-First-Post.ipynb",
-            "relUrl": "/2022/08/21/My-First-Post.ipynb",
+            "title": "Im Really Sick Of This",
+            "content": "Welcome to my blog! . This is my first ever blog post! .",
+            "url": "https://h4seeb-cmd.github.io/turtle/2022/08/21/im-really-sick-of-this.html",
+            "relUrl": "/2022/08/21/im-really-sick-of-this.html",
             "date": " • Aug 21, 2022"
         }
         
