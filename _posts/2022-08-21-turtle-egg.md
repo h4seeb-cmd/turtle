@@ -1,12 +1,13 @@
-# Hello World!
->My first ever blog post, who I am!
-
-- toc: true
-- branch: master
-- badges: true
-- comments: true
-- author: Haseeb Beg
-
+---
+toc: true
+layout: post
+description: My first blog post!
+categories: [markdown]
+title: Welcome!
+author: Haseeb Beg
+show_tags: true
+comments: true
+---
 
 # Hello World! 
 
