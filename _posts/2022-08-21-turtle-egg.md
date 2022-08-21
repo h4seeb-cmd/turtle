@@ -6,7 +6,7 @@
 - badges: true
 - comments: true
 - author: Haseeb Beg
-- categories: [fastpages, markdown]
+
 
 # Hello World! 
 
