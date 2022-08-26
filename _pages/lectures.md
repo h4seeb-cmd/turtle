@@ -10,26 +10,32 @@ permalink: /lectures/
 <table>
 
     <tr>
-     <th>Lecture</th> 
-     <th>Lectrue date</th>
+     <th>Lecture Date</th> 
+     <th>Lecture</th>
     </tr>
 
     <tr>
-        <td>Lecture 3: Bash</td>
-        <td><a href="{{site.baseurl}}/lecture/bashlecture">8-25-22</a></td>
-        <td>
+        <td>Lecture 3</td>
+        <td><a href="{{site.baseurl}}8-25-22">/lecture/bashlecture</a>
+        </td>
+        <td>Bash
+        </td>
     </tr>
 
     <tr>
-        <td>Lectrue 2: VSCode</td>
-        <td><a href="{{site.baseurl}}/lecture/vscodelecture">8-24-22
-        <td>
+        <td>Lectrue 2</td>
+        <td><a href="{{site.baseurl}}8-24-22">/lecture/vscodelecture
+        </td>
+        <td>VSCode
+        </td>
     </tr>
     
     <tr>
-        <td>Lectrue 1: Python Intro</td>
-        <td><a href="{{site.baseurl}}/lecture/pythonintrolecture">8-23-22
-        <td>
+        <td>Lectrue 1</td>
+        <td><a href="{{site.baseurl}}8-23-22">/lecture/pythonintrolecture
+        </td>
+        <td>Intro to Python
+        </td>
     </tr>
 
 </table>
