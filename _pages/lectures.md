@@ -15,24 +15,25 @@ permalink: /lectures/
     </tr>
 
     <tr>
-        <td>Lecture 3</td>
+        <td>08-25-22</td>
         <td>
-             <a href="{{site.baseurl}}8-25-22">/lecture/bashlecture</a>
+             <a href="{{site.baseurl}}/lecture/bashlecture">Lecture 3</a>
         </td>
         <td>Bash</td>
     </tr>
 
     <tr>
-        <td>Lectrue 2</td>
-        <td><a href="{{site.baseurl}}8-24-22">/lecture/vscodelecture
+        <td>08-24-22</td>
+        <td><a href="{{site.baseurl}}/lecture/vscodelecture">Lecture 2</a>
         </td>
         <td>VSCode
         </td>
     </tr>
     
     <tr>
-        <td>Lectrue 1</td>
-        <td><a href="{{site.baseurl}}8-23-22">/lecture/pythonintrolecture</td>
+        <td>08-23-22</td>
+        <td><a href="{{site.baseurl}}/lecture/pythonintrolecture">Lecture 1</a>
+        </td>
         <td>Intro to Python</td>
     </tr>
 
