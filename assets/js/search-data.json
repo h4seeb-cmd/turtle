@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "LECTURE 3",
-            "content": "Notes . You can remotely git pull using bash. | Make your own toolsCheck page. | . export project_dir=$HOME/vscode # change vscode to different name to test git clone export project=$project_dir/turtle # change APCSP to name of project from git clone export project_repo=&quot;https://github.com/h4seeb-cmd/turtle.git&quot; # change to project of choice .",
-            "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/2022/08/25/bash-lecture.html",
-            "relUrl": "/fastpages/jupyter/2022/08/25/bash-lecture.html",
+            "title": "My First Notebook",
+            "content": "Welcome to... my FIRST NOTEBOOK! . WOAH IS THAT PYTHON? . print(&quot;YES IT IS!!!&quot;) . YES IT IS!!! .",
+            "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/2022/08/25/first-notebook.html",
+            "relUrl": "/fastpages/jupyter/2022/08/25/first-notebook.html",
             "date": " • Aug 25, 2022"
         }
         
@@ -13,21 +13,21 @@
   
     
         ,"post1": {
-            "title": "LECTURE 2",
-            "content": "NOTES . Make a google doc, put it on docx, then proceed to somehow organize it in the blog. . | In front matter, there is a key and a value. . Ex:branch: master (branch is the key master is the value.) . | If key is present you MUST have a value. . | Go to _pages to add/edit subpages. . ie:About Me . | Special key known as site.baseurl. If you add on it you can make a directory to a file. . | Secrets are in _config.yml, you can add images there. . | In config.yml, you can make show_image: true and you can now add images to posts. . to add an img to a post, do /image:{insert image link here, it should start with /images} . | .",
-            "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/2022/08/24/lecture-2.html",
-            "relUrl": "/fastpages/jupyter/2022/08/24/lecture-2.html",
-            "date": " • Aug 24, 2022"
+            "title": "LECTURE 3",
+            "content": "Notes . You can remotely git pull using bash. | Make your own toolsCheck page. | . export project_dir=$HOME/vscode # change vscode to different name to test git clone export project=$project_dir/turtle # change APCSP to name of project from git clone export project_repo=&quot;https://github.com/h4seeb-cmd/turtle.git&quot; # change to project of choice .",
+            "url": "https://h4seeb-cmd.github.io/turtle/lecture/bashlecture",
+            "relUrl": "/lecture/bashlecture",
+            "date": " • Aug 25, 2022"
         }
         
     
   
     
         ,"post2": {
-            "title": "My First Notebook",
-            "content": "Welcome to... my FIRST NOTEBOOK! . WOAH IS THAT PYTHON? . print(&quot;YES IT IS!!!&quot;) . YES IT IS!!! .",
-            "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/2022/08/24/first-notebook.html",
-            "relUrl": "/fastpages/jupyter/2022/08/24/first-notebook.html",
+            "title": "LECTURE 2",
+            "content": "NOTES . Make a google doc, put it on docx, then proceed to somehow organize it in the blog. . | In front matter, there is a key and a value. . Ex:branch: master (branch is the key master is the value.) . | If key is present you MUST have a value. . | Go to _pages to add/edit subpages. . ie:About Me . | Special key known as site.baseurl. If you add on it you can make a directory to a file. . | Secrets are in _config.yml, you can add images there. . | In config.yml, you can make show_image: true and you can now add images to posts. . to add an img to a post, do /image:{insert image link here, it should start with /images} . | .",
+            "url": "https://h4seeb-cmd.github.io/turtle/lecture/vscodelecture",
+            "relUrl": "/lecture/vscodelecture",
             "date": " • Aug 24, 2022"
         }
         
@@ -48,8 +48,8 @@
         ,"post4": {
             "title": "LECTURE 1",
             "content": "Notes . -def = define, used to create parameters and functions in python. . -sequence = college board vocab for many lines of code in an order. . -static text = text that doesn&#39;t change. . ex:print(&quot;helloWorld&quot;) &gt; in this case, helloWorld is the static text, it doesn&#39;t change. . -import = imports commands that other people develop. . ex:import getpass sys -if statements are used in python to evaluate a correct or incorrect response. ex:if rsp == &quot;2&quot;&gt; print (rsp + &quot; is right!&quot;) correct += 1 else:print(rsp + &quot; is WRONG! :&lt; &quot;) -rsp is used in if statements, represents &quot;response&quot; .",
-            "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/2022/08/23/intro-to-python-lecture.html",
-            "relUrl": "/fastpages/jupyter/2022/08/23/intro-to-python-lecture.html",
+            "url": "https://h4seeb-cmd.github.io/turtle/lecture/pythonintrolecture",
+            "relUrl": "/lecture/pythonintrolecture",
             "date": " • Aug 23, 2022"
         }
         
@@ -108,7 +108,7 @@
   
       ,"page3": {
           "title": "Class Lectures",
-          "content": "All the class lectures: .",
+          "content": "All the class lectures: . Lecture Lectrue date . Lecture 3: Bash | 8-25-22 | &lt;/tr&gt; Lectrue 2: VSCode | 8-24-22 &lt;/tr&gt; Lectrue 1: Python Intro | 8-23-22 &lt;/tr&gt; &lt;/table&gt; | | . | | . | .",
           "url": "https://h4seeb-cmd.github.io/turtle/lectures/",
           "relUrl": "/lectures/",
           "date": ""
