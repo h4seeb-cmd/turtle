@@ -108,7 +108,7 @@
   
       ,"page3": {
           "title": "Class Lectures",
-          "content": "All the class lectures: . Lecture Lectrue date . Lecture 3: Bash | 8-25-22 | &lt;/tr&gt; Lectrue 2: VSCode | 8-24-22 &lt;/tr&gt; Lectrue 1: Python Intro | 8-23-22 &lt;/tr&gt; &lt;/table&gt; | | . | | . | .",
+          "content": "All the class lectures: . Lecture Date Lecture . Lecture 3 | /lecture/bashlecture | Bash | . Lectrue 2 | /lecture/vscodelecture &lt;/td&gt; VSCode | &lt;/tr&gt; Lectrue 1 | /lecture/pythonintrolecture &lt;/td&gt; Intro to Python | &lt;/tr&gt; &lt;/table&gt; | . | .",
           "url": "https://h4seeb-cmd.github.io/turtle/lectures/",
           "relUrl": "/lectures/",
           "date": ""
