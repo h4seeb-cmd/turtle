@@ -13,6 +13,14 @@ permalink: /lectures/
      <th>Lecture</th>
      <th>Lecture topic</th>
     </tr>
+    
+    <tr>
+        <td>08-30-22</td>
+        <td>
+             <a href="{{site.baseurl}}/lecture/python_lists">Lecture 4</a>
+        </td>
+        <td>Python Lists</td>
+    </tr>
 
     <tr>
         <td>08-25-22</td>
