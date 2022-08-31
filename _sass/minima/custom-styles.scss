@@ -6,12 +6,13 @@
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-<html>
-  <style>
-    body {
-      background: darkcyan;
-      
-    }
-  </style>
+
+.site-title, .site-nav, .page-link {
+  color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+}
+
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
