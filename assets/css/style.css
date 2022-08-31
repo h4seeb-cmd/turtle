@@ -427,6 +427,8 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+.site-title, .site-nav, .page-link { color: rgba(0, 0, 0, 0.2) !important; background-color: black; background-color: rgba(0, 0, 0, 0.2); background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff); }
+
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
