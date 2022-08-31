@@ -427,7 +427,7 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-.site-title, .site-nav, .page-link { color: rgba(0, 0, 0, 0.2) !important; background-color: darkcyan; }
+div { color: green !important; background-color: darkcyan; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
