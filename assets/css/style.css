@@ -427,7 +427,9 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-body, html { color: green !important; background-color: darkcyan; }
+body, html { color: green !important; background-color: lightblue; }
+
+header, html { color: green !important; background-color: lightblue; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
