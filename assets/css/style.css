@@ -427,10 +427,6 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-body, html { color: green !important; background-color: lightblue; }
-
-head, html { color: green !important; background-color: lightblue; }
-
 html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #121212 !important; }
 
 a { color: #4bbaff !important; }
