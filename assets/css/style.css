@@ -467,6 +467,8 @@ body, html { color: green !important; background-color: lightblue; }
 
 head, html { color: green !important; background-color: lightblue; }
 
+p { color: green !important; }
+
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
