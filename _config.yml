@@ -37,7 +37,7 @@ url: "https://h4seeb-cmd.github.io" # the base hostname & protocol for your site
 baseurl: "/turtle" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
-slate@v0.2.0:
+minima:
   social_links:
     github: h4seeb-cmd
 
@@ -81,7 +81,7 @@ html_escape:
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-theme: slate
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -94,14 +94,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: pages-themes/slate@v0.20
+remote_theme: pages-themes/midnight@v0.2.0
 
 titles_from_headings:
   enabled:     true
