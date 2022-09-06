@@ -81,7 +81,7 @@ html_escape:
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-theme: slate
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -100,7 +100,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/slate
+remote_theme: pages-themes/slate@v0.20
 
 titles_from_headings:
   enabled:     true
