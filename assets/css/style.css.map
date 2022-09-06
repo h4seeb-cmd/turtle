@@ -3,10 +3,10 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../tmp/jekyll-remote-theme-20220906-1-70jd1h/_sass/jekyll-theme-midnight.scss",
-		"../../tmp/jekyll-remote-theme-20220906-1-70jd1h/_sass/normalize.scss",
-		"../../tmp/jekyll-remote-theme-20220906-1-70jd1h/_sass/fonts.scss",
-		"../../tmp/jekyll-remote-theme-20220906-1-70jd1h/_sass/rouge-base16-dark.scss"
+		"../../tmp/jekyll-remote-theme-20220906-1-1omu4ym/_sass/jekyll-theme-midnight.scss",
+		"../../tmp/jekyll-remote-theme-20220906-1-1omu4ym/_sass/normalize.scss",
+		"../../tmp/jekyll-remote-theme-20220906-1-1omu4ym/_sass/fonts.scss",
+		"../../tmp/jekyll-remote-theme-20220906-1-1omu4ym/_sass/rouge-base16-dark.scss"
 	],
 	"sourcesContent": [
 		"@import \"jekyll-theme-midnight\";\n",
