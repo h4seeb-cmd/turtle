@@ -37,7 +37,7 @@ url: "https://h4seeb-cmd.github.io" # the base hostname & protocol for your site
 baseurl: "/turtle" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
-minima:
+slate@v0.2.0:
   social_links:
     github: h4seeb-cmd
 
@@ -94,6 +94,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-remote-theme
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
