@@ -6,6 +6,7 @@ categories: [markdown, Week 2]
 title: Changing My Theme
 author: Haseeb Beg
 show_tags: true
+images: true
 comments: true
 ---
 
