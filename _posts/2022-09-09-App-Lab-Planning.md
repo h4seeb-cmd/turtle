@@ -25,7 +25,7 @@ comments: true
 
 ## Completed Tangible (9/11/22)
 
-As of the date, the quiz is now complete href="https://studio.code.org/projects/applab/byjBO37c2ri4OQLnzNk4YrF40bVfgn9oxhQbJa8_aRg", and I added a mix bag of questions that vary from CS terminology to mathematical questions. Some challenges I faced while working were:
+As of the date, the quiz is now complete: https://studio.code.org/projects/applab/byjBO37c2ri4OQLnzNk4YrF40bVfgn9oxhQbJa8_aRg. I added a mix bag of questions that vary from CS terminology to mathematical questions. Some challenges I faced while working were:
 
 > - Not having my score tallied correctly at the end card
 > - Hitting submit indiscriminately sent you to the correct screen, regardless of answer
