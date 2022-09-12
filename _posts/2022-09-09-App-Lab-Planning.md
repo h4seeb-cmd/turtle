@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: App Lab planning and outline, along with future ideas!
 categories: [markdown, Week 3]
-title: My Plan for My App Plan 
+title: My Plan for My AppLab and My Final Project
 author: Haseeb Beg
 show_tags: true
 comments: true
@@ -39,13 +39,6 @@ Some things I could have done better were:
 > - Make the quiz more visually appealing
 > - Manage my work time better
 > - Write better, more robust code
-
-## Some Ideas I Could Create in AppLab in the Future
-
-Some ideas I have consist of:
-> - Making a calculator
-> - Making an image generator
-> - Making a cookie clicker game
 
 ## Thoughts on AppLab
 
