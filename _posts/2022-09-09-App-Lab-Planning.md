@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: App Lab planning and outline, along with future ideas!
 categories: [markdown, Week 3]
-title: My Plan for My AppLab and My Final Project
+title: My Plan for My AppLab 
 author: Haseeb Beg
 show_tags: true
 comments: true
