@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: App Lab Planning and Outline
+description: App Lab planning and outline, along with future ideas!
 categories: [markdown, Week 3]
 title: My Plan for My App Plan 
 author: Haseeb Beg
@@ -25,7 +25,7 @@ comments: true
 
 ## Completed Tangible (9/11/22)
 
-As of the date, the quiz is now complete, and I added a mix bag of questions that vary from CS terminology to mathematical questions. Some challenges I faced while working were:
+As of the date, the quiz is now complete href="https://studio.code.org/projects/applab/byjBO37c2ri4OQLnzNk4YrF40bVfgn9oxhQbJa8_aRg", and I added a mix bag of questions that vary from CS terminology to mathematical questions. Some challenges I faced while working were:
 
 > - Not having my score tallied correctly at the end card
 > - Hitting submit indiscriminately sent you to the correct screen, regardless of answer
@@ -39,6 +39,13 @@ Some things I could have done better were:
 > - Make the quiz more visually appealing
 > - Manage my work time better
 > - Write better, more robust code
+
+## Some Ideas I Could Create in AppLab in the Future
+
+Some ideas I have consist of:
+> - Making a calculator
+> - Making an image generator
+> - Making a cookie clicker game
 
 ## Thoughts on AppLab
 
