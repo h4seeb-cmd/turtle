@@ -1,13 +1,6 @@
 ---
 keywords: fastai
-description: What would happen if I changed my theme?
-title: "My Theme Changing Experience"
-toc: true
-comments: true 
-branch: master
-badges: true
-author: Haseeb Beg
-categories: [fastpages, jupyter, Week 2]
+title: Title
 nb_path: _notebooks/2022-09-05-change_theme.ipynb
 layout: notebook
 ---
