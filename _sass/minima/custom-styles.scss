@@ -10,14 +10,26 @@
 @import "minima/dark-mode";
 
 
-body, html 
-  { color:green !important; background-color: lightblue } 
-
   head, html 
-  { color:green !important; background-color: lightblue }
+  { color:green !important; 
+    
+    background-color: lightblue }
 
-  p {
+  head {
     color: green !important;
+    
+    b {
+        animation: color-change 6s infinite;
+    }
+
+    @keyframes color-change {
+    0% { color: #93FF54;}
+    20% { color: #62F40C;}
+    40% { color: #54E90F;}
+    60% { color: #45DD12;}
+    80% {color: #36CF11;}
+    100% {color: #2EC20A;}
+    }
   }
 
   a:link {
