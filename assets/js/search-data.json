@@ -35,8 +35,8 @@
   
     
         ,"post3": {
-            "title": "JavaScript Testing",
-            "content": "// Creating a variable of var team = [ new Member(&quot;Haseeb&quot;, &quot;h4seeb-cmd&quot;), new Member(&quot;Alex&quot;, &quot;YLu-1258&quot;), new Member(&quot;Evan&quot;, &quot;chewyboba10&quot;), new Member(&quot;Shaurya&quot;, &quot;STG-7&quot;), new Member(&quot;Tirth&quot;, &quot;Tirth-Thakkar&quot;), ] console.log(team) . [ Member { name: &#39;Haseeb&#39;, ghID: &#39;h4seeb-cmd&#39; }, Member { name: &#39;Alex&#39;, ghID: &#39;YLu-1258&#39; }, Member { name: &#39;Evan&#39;, ghID: &#39;chewyboba10&#39; }, Member { name: &#39;Shaurya&#39;, ghID: &#39;STG-7&#39; }, Member { name: &#39;Tirth&#39;, ghID: &#39;Tirth-Thakkar&#39; } ] .",
+            "title": "JavaScript Demonstration",
+            "content": "// Defining variable team var team = { Haseeb: &quot;h4seeb-cmd&quot;, Shaurya: &quot;STG-7&quot;, Tirth: &quot;Tirth-Thakkar&quot;, Evan: &quot;chewy-boba10&quot;, Alex: &quot;YLu-1258&quot; }; // Creating the function to make the table function createTable(data){ var table = &quot;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;GitHub Username&lt;/th&gt;&lt;/tr&gt;&quot; var keys = Object.keys(data); // Printing the values into the table for(var index in keys){ const key = keys[index]; const value = team[key]; table += &quot;&lt;tr&gt;&lt;td&gt;&quot;+key+&quot;&lt;/td&gt;&lt;td&gt;&quot;+value+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;; } table += &quot;&lt;/table&gt;&quot;; return table; } $$.html(createTable(team)); . NameGitHub Username . Haseeb | h4seeb-cmd | . Shaurya | STG-7 | . Tirth | Tirth-Thakkar | . Evan | chewyboba10 | . Alex | YLu-1258 | .",
             "url": "https://h4seeb-cmd.github.io/turtle/jstest/js-trial-and-error",
             "relUrl": "/jstest/js-trial-and-error",
             "date": " • Sep 22, 2022"
@@ -257,6 +257,17 @@
   
 
   
+      ,"page8": {
+          "title": "Submenu",
+          "content": ". Dropdown Menu JS Table .",
+          "url": "https://h4seeb-cmd.github.io/turtle/submenu/",
+          "relUrl": "/submenu/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -270,7 +281,7 @@
   
 
   
-      ,"page13": {
+      ,"page14": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://h4seeb-cmd.github.io/turtle/robots.txt",

@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>JavaScript Testing | TURTLE</title>
+<title>JavaScript Demonstration | TURTLE</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="JavaScript Testing" />
+<meta property="og:title" content="JavaScript Demonstration" />
 <meta name="author" content="Haseeb Beg" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Demonstration of the JavaScript kernel working in a Jupyter Notebook" />
@@ -17,9 +17,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-09-22T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="JavaScript Testing" />
+<meta property="twitter:title" content="JavaScript Demonstration" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Haseeb Beg"},"dateModified":"2022-09-22T00:00:00-05:00","datePublished":"2022-09-22T00:00:00-05:00","description":"Demonstration of the JavaScript kernel working in a Jupyter Notebook","headline":"JavaScript Testing","mainEntityOfPage":{"@type":"WebPage","@id":"https://h4seeb-cmd.github.io/turtle/jstest/js-trial-and-error"},"url":"https://h4seeb-cmd.github.io/turtle/jstest/js-trial-and-error"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Haseeb Beg"},"dateModified":"2022-09-22T00:00:00-05:00","datePublished":"2022-09-22T00:00:00-05:00","description":"Demonstration of the JavaScript kernel working in a Jupyter Notebook","headline":"JavaScript Demonstration","mainEntityOfPage":{"@type":"WebPage","@id":"https://h4seeb-cmd.github.io/turtle/jstest/js-trial-and-error"},"url":"https://h4seeb-cmd.github.io/turtle/jstest/js-trial-and-error"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/turtle/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://h4seeb-cmd.github.io/turtle/feed.xml" title="TURTLE" /><link rel="shortcut icon" type="image/x-icon" href="/turtle/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -66,7 +66,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/turtle/about/">About Me</a><a class="page-link" href="/turtle/lectures/">Class Lectures</a><a class="page-link" href="/turtle/search/">Search</a><a class="page-link" href="/turtle/sprints/">Work Sprints</a><a class="page-link" href="/turtle/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/turtle/about/">About Me</a><a class="page-link" href="/turtle/lectures/">Class Lectures</a><a class="page-link" href="/turtle/search/">Search</a><a class="page-link" href="/turtle/sprints/">Work Sprints</a><a class="page-link" href="/turtle/submenu/">Submenu</a><a class="page-link" href="/turtle/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -74,7 +74,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">JavaScript Testing</h1><p class="page-description">Demonstration of the JavaScript kernel working in a Jupyter Notebook</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-22T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">JavaScript Demonstration</h1><p class="page-description">Demonstration of the JavaScript kernel working in a Jupyter Notebook</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-22T00:00:00-05:00" itemprop="datePublished">
         Sep 22, 2022
       </time>• 
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -149,18 +149,31 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Creating a variable of </span>
-<span class="kd">var</span> <span class="nx">team</span> <span class="o">=</span> <span class="p">[</span> 
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">"Haseeb"</span><span class="p">,</span> <span class="s2">"h4seeb-cmd"</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">"Alex"</span><span class="p">,</span> <span class="s2">"YLu-1258"</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">"Evan"</span><span class="p">,</span> <span class="s2">"chewyboba10"</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">"Shaurya"</span><span class="p">,</span> <span class="s2">"STG-7"</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">"Tirth"</span><span class="p">,</span> <span class="s2">"Tirth-Thakkar"</span><span class="p">),</span>
-<span class="p">]</span>
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Defining variable team</span>
+<span class="kd">var</span> <span class="nx">team</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">Haseeb</span><span class="o">:</span> <span class="s2">"h4seeb-cmd"</span><span class="p">,</span>
+    <span class="nx">Shaurya</span><span class="o">:</span> <span class="s2">"STG-7"</span><span class="p">,</span>
+    <span class="nx">Tirth</span><span class="o">:</span> <span class="s2">"Tirth-Thakkar"</span><span class="p">,</span>
+    <span class="nx">Evan</span><span class="o">:</span> <span class="s2">"chewy-boba10"</span><span class="p">,</span>
+    <span class="nx">Alex</span><span class="o">:</span> <span class="s2">"YLu-1258"</span>
+<span class="p">};</span>
 
+<span class="c1">// Creating the function to make the table</span>
+<span class="kd">function</span> <span class="nx">createTable</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">table</span> <span class="o">=</span> <span class="s2">"&lt;table&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;GitHub Username&lt;/th&gt;&lt;/tr&gt;"</span>
+    <span class="kd">var</span> <span class="nx">keys</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
 
+<span class="c1">// Printing the values into the table</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">index</span> <span class="k">in</span> <span class="nx">keys</span><span class="p">){</span>
+        <span class="kr">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="nx">keys</span><span class="p">[</span><span class="nx">index</span><span class="p">];</span>
+        <span class="kr">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">team</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+        <span class="nx">table</span> <span class="o">+=</span> <span class="s2">"&lt;tr&gt;&lt;td&gt;"</span><span class="o">+</span><span class="nx">key</span><span class="o">+</span><span class="s2">"&lt;/td&gt;&lt;td&gt;"</span><span class="o">+</span><span class="nx">value</span><span class="o">+</span><span class="s2">"&lt;/td&gt;&lt;/tr&gt;"</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">table</span> <span class="o">+=</span> <span class="s2">"&lt;/table&gt;"</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">table</span><span class="p">;</span>
+<span class="p">}</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">team</span><span class="p">)</span>
+<span class="nx">$$</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">createTable</span><span class="p">(</span><span class="nx">team</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -172,14 +185,36 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[ Member { name: 'Haseeb', ghID: 'h4seeb-cmd' },
-  Member { name: 'Alex', ghID: 'YLu-1258' },
-  Member { name: 'Evan', ghID: 'chewyboba10' },
-  Member { name: 'Shaurya', ghID: 'STG-7' },
-  Member { name: 'Tirth', ghID: 'Tirth-Thakkar' } ]
-</pre>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<table>
+<tr>
+<th>Name</th>
+<th>GitHub Username</th>
+</tr>
+<tr>
+<td>Haseeb</td>
+<td>h4seeb-cmd</td>
+</tr>
+<tr>
+<td>Shaurya</td>
+<td>STG-7</td>
+</tr>
+<tr>
+<td>Tirth</td>
+<td>Tirth-Thakkar</td>
+</tr>
+<tr>
+<td>Evan</td>
+<td>chewyboba10</td>
+</tr>
+<tr>
+<td>Alex</td>
+<td>YLu-1258</td>
+</tr>
+</table>
 </div>
+
 </div>
 
 </div>
