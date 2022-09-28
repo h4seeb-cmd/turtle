@@ -467,18 +467,17 @@ head, html { color: green !important; background-color: lightblue; }
 
 head { color: green !important; }
 
-head b { animation: color-change 6s infinite; }
+a:link { color: green !important; }
 
-@keyframes color-change { 0% { color: #93FF54; }
-  20% { color: #62F40C; }
-  40% { color: #54E90F; }
-  60% { color: #45DD12; }
-  80% { color: #36CF11; }
-  100% { color: #2EC20A; } }
+a:hover { color: lightgreen !important; }
 
-a:link { color: green; }
+p { color: green !important; }
 
-a:hover { color: lightgreen; }
+a { color: green !important; }
+
+h1 { color: green !important; }
+
+.page-description { color: green !important; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
