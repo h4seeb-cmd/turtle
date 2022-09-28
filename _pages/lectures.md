@@ -13,7 +13,6 @@ permalink: /lectures/
      <th>Lecture</th>
      <th>Lecture topic</th>
     </tr>
-    
     <tr>
         <td>08-30-22</td>
         <td>
@@ -21,7 +20,6 @@ permalink: /lectures/
         </td>
         <td>Python Lists</td>
     </tr>
-
     <tr>
         <td>08-25-22</td>
         <td>
@@ -29,7 +27,6 @@ permalink: /lectures/
         </td>
         <td>Bash</td>
     </tr>
-
     <tr>
         <td>08-24-22</td>
         <td><a href="{{site.baseurl}}/lecture/vscodelecture">Lecture 2</a>
@@ -37,12 +34,10 @@ permalink: /lectures/
         <td>VSCode
         </td>
     </tr>
-    
     <tr>
         <td>08-23-22</td>
         <td><a href="{{site.baseurl}}/lecture/pythonintrolecture">Lecture 1</a>
         </td>
         <td>Intro to Python</td>
     </tr>
-
 </table>

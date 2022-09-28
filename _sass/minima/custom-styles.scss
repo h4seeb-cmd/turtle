@@ -17,29 +17,30 @@
 
   head {
     color: green !important;
-    
-    b {
-        animation: color-change 6s infinite;
-    }
-
-    @keyframes color-change {
-    0% { color: #93FF54;}
-    20% { color: #62F40C;}
-    40% { color: #54E90F;}
-    60% { color: #45DD12;}
-    80% {color: #36CF11;}
-    100% {color: #2EC20A;}
-    }
   }
 
   a:link {
-    color: green;
+    color: green !important;
   }
 
   a:hover {
-    color: lightgreen;
+    color: lightgreen !important;
   }
 
+  p {
+    color: green !important;
+  }
 
+  a {
+    color: green !important;
+  }
+
+  h1 {
+    color: green !important;
+  }
+
+  .page-description {
+    color: green !important;
+  }
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 

@@ -1,14 +1,14 @@
 ---
 keywords: fastai
 description: Demonstration of the JavaScript kernel working in a Jupyter Notebook
-title: "JavaScript Testing"
+title: "JavaScript Demonstration"
 toc: true
 comments: true 
 branch: master
 badges: true
 author: Haseeb Beg
 categories: [fastpages, jupyter, Week 5]
-permalink: /jstest/js-trial-and-error
+permalink: /submenu/js-trial-and-error
 nb_path: _notebooks/2022-09-22-js-trial-and-error.ipynb
 layout: notebook
 ---
@@ -29,18 +29,31 @@ layout: notebook
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Creating a variable of </span>
-<span class="kd">var</span> <span class="nx">team</span> <span class="o">=</span> <span class="p">[</span> 
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">&quot;Haseeb&quot;</span><span class="p">,</span> <span class="s2">&quot;h4seeb-cmd&quot;</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">&quot;Alex&quot;</span><span class="p">,</span> <span class="s2">&quot;YLu-1258&quot;</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">&quot;Evan&quot;</span><span class="p">,</span> <span class="s2">&quot;chewyboba10&quot;</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">&quot;Shaurya&quot;</span><span class="p">,</span> <span class="s2">&quot;STG-7&quot;</span><span class="p">),</span>
-<span class="k">new</span> <span class="nx">Member</span><span class="p">(</span><span class="s2">&quot;Tirth&quot;</span><span class="p">,</span> <span class="s2">&quot;Tirth-Thakkar&quot;</span><span class="p">),</span>
-<span class="p">]</span>
+<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Defining variable team</span>
+<span class="kd">var</span> <span class="nx">team</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">Haseeb</span><span class="o">:</span> <span class="s2">&quot;h4seeb-cmd&quot;</span><span class="p">,</span>
+    <span class="nx">Shaurya</span><span class="o">:</span> <span class="s2">&quot;STG-7&quot;</span><span class="p">,</span>
+    <span class="nx">Tirth</span><span class="o">:</span> <span class="s2">&quot;Tirth-Thakkar&quot;</span><span class="p">,</span>
+    <span class="nx">Evan</span><span class="o">:</span> <span class="s2">&quot;chewy-boba10&quot;</span><span class="p">,</span>
+    <span class="nx">Alex</span><span class="o">:</span> <span class="s2">&quot;YLu-1258&quot;</span>
+<span class="p">};</span>
 
+<span class="c1">// Creating the function to make the table</span>
+<span class="kd">function</span> <span class="nx">createTable</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">table</span> <span class="o">=</span> <span class="s2">&quot;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;GitHub Username&lt;/th&gt;&lt;/tr&gt;&quot;</span>
+    <span class="kd">var</span> <span class="nx">keys</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
 
+<span class="c1">// Printing the values into the table</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">index</span> <span class="k">in</span> <span class="nx">keys</span><span class="p">){</span>
+        <span class="kr">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="nx">keys</span><span class="p">[</span><span class="nx">index</span><span class="p">];</span>
+        <span class="kr">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">team</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+        <span class="nx">table</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&lt;td&gt;&quot;</span><span class="o">+</span><span class="nx">key</span><span class="o">+</span><span class="s2">&quot;&lt;/td&gt;&lt;td&gt;&quot;</span><span class="o">+</span><span class="nx">value</span><span class="o">+</span><span class="s2">&quot;&lt;/td&gt;&lt;/tr&gt;&quot;</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">table</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/table&gt;&quot;</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">table</span><span class="p">;</span>
+<span class="p">}</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">team</span><span class="p">)</span>
+<span class="nx">$$</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">createTable</span><span class="p">(</span><span class="nx">team</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -52,14 +65,11 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[ Member { name: &#39;Haseeb&#39;, ghID: &#39;h4seeb-cmd&#39; },
-  Member { name: &#39;Alex&#39;, ghID: &#39;YLu-1258&#39; },
-  Member { name: &#39;Evan&#39;, ghID: &#39;chewyboba10&#39; },
-  Member { name: &#39;Shaurya&#39;, ghID: &#39;STG-7&#39; },
-  Member { name: &#39;Tirth&#39;, ghID: &#39;Tirth-Thakkar&#39; } ]
-</pre>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<table><tr><th>Name</th><th>GitHub Username</th></tr><tr><td>Haseeb</td><td>h4seeb-cmd</td></tr><tr><td>Shaurya</td><td>STG-7</td></tr><tr><td>Tirth</td><td>Tirth-Thakkar</td></tr><tr><td>Evan</td><td>chewy-boba10</td></tr><tr><td>Alex</td><td>YLu-1258</td></tr></table>
 </div>
+
 </div>
 
 </div>
