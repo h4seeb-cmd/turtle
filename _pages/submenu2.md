@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submenu
+title: Submenu2
 permalink: /submenu/
 ---
 
@@ -12,7 +12,7 @@ permalink: /submenu/
         <a href="{{site.baseurl}}/submenu/js-trial-and-error">JS Table</a>
         </td>
         <td>
-        <a href="#">API Usage</a>
+        <a href="{{site.baseurl}}/submenu2/APIUsage">API Usage</a>
         </td>
         <td>
         <a href="#">Link 3</a>

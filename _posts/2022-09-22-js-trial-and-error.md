@@ -22,6 +22,26 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+        <tbody>
+    <tr>
+        <td>
+        <a href="{{site.baseurl}}/submenu/js-trial-and-error">JS Table</a>
+        </td>
+        <td>
+        <a href="{{site.baseurl}}/submenu2/APIUsage">API Usage</a>
+        </td>
+        <td>
+        <a href="#">Link 3</a>
+        </td>
+    </tr>
+        </tbody>
+</table>
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -38,20 +58,6 @@ layout: notebook
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>y5
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
