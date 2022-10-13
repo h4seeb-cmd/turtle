@@ -9,6 +9,11 @@ show_tags: true
 comments: true
 ---
 
+# Proof of Completion:
+
+![]({{site.baseurl}}/images/scam.png)
+
+
 # Problem 1:
 
 DineOutHelper is a mobile application that people can use to select a restaurant for a group meal. Each user creates a profile with a unique username and a list of food allergies or dietary restrictions. Each user can then build a contact list of other users of the app.
