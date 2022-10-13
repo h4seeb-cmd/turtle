@@ -47,5 +47,6 @@ What is the minimum number of connections that must be broken or removed in the 
 
 
 # Answers:
-Problem 1: 1 and 2 only
-Problem 2: 
+- Problem 1: 1 and 2 only
+- Problem 2: 1 only
+- Problem 3: 3 only
