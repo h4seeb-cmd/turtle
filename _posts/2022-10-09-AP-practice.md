@@ -13,6 +13,7 @@ comments: true
 
 ![]({{site.baseurl}}/images/scam.png)
 
+I notice that I still need to work on understanding the Collegeboard code and understanding code logic. That is the main thing holding me back at the minute. I also need to work on my speed as well. 
 
 # Problem 1:
 
