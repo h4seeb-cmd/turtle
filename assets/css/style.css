@@ -469,13 +469,17 @@ head { color: green !important; }
 
 a:link { color: green !important; }
 
-a:hover { color: lightgreen !important; }
+a:hover { color: #d6f9d6 !important; }
 
-p { color: green !important; }
+p { color: #60e660 !important; }
 
 a { color: green !important; }
 
 h1 { color: green !important; }
+
+h2 { color: green !important; }
+
+h3 { color: green !important; }
 
 .page-description { color: green !important; }
 
