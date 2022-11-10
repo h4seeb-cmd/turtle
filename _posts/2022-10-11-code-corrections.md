@@ -1,7 +1,7 @@
 ---
 keywords: fastai
 description: Here are the corrections of the code shown in class.
-title: "Code Correcitons"
+title: "Code Corrections"
 toc: true
 comments: true 
 branch: master
