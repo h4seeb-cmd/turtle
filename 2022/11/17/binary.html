@@ -1,0 +1,46 @@
+
+<style>
+    .form-group {
+        color: green;
+    }
+</style>
+
+<div class="container bg-primary">
+    <form>
+        <div class="form-group row">
+            Type any number and hit tab to convert to binary
+            <div>
+                <input onblur="convert()" type="text" name="decimal" id="decimal" /><br />
+            </div>
+        </div>
+        <div class="form-group row">
+            Binary : <span id="binary"></span>
+        </div>
+    </form>
+</div>
+
+<script>
+    function convert(){
+        var array = document.getElementsByName('decimal');  // user input (can be letters, symbols, etc. (strings))
+        if (array[array.length-1].value.length != 0) {  // skip the process if user input is literally nothing 
+            var binary = [];  // stores binary result
+            var decimal = parseInt(array[0].value)  // user decimal input
+            var remainder;  // temporary variable to store remainder
+            if (decimal == "0") {  // if user input is decimal 0, binary output will also be 0
+                binary.unshift("0");
+            }
+            else {
+                while (decimal != 0){  // continues until quotient becomes 0  
+                    remainder = decimal%2;  // %2 calculates the remainder of given decimal
+                    binary.unshift(remainder);  // stores remainder 
+                    decimal = Math.floor(decimal/2)  // rounds down decimal / 2
+                }
+            } 
+            const final = binary.join('');  // gets the array and converts it to a string
+            document.getElementById('binary').innerHTML = final;   // sends binary to the html
+        }
+        document.getElementById("decimal").focus();
+    }
+
+</script>
+
