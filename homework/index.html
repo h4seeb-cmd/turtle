@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      6 min read
     
 </span></p>
 
@@ -146,9 +146,14 @@ window.onload = wrap_img;
 <a class="anchor" href="#Overview-and-Notes:--3.10---Lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview and Notes:  3.10 - Lists<a class="anchor-link" href="#Overview-and-Notes:--3.10---Lists"> </a>
 </h2>
 <ul>
-<li>Make sure you complete the challenge in the challenges section while we present the lesson! </li>
+<li>Make sure you complete the challenge in the challenges section while we present the lesson! \</li>
 </ul>
 <p>Add your <mark>OWN</mark> Notes for 3.10 here:</p>
+<ul>
+<li>Lists are collections of data that can store lots of information</li>
+<li>You can manipulate lists to be changed automatically</li>
+<li>Lists have indexs that represent the location of an element in their respective list. Normally start on 0 in most coding languages.</li>
+</ul>
 <p>Fill out the empty boxes:</p>
 <table>
 <thead>
@@ -180,17 +185,17 @@ window.onload = wrap_img;
 <td style="text-align:center"><em>Assigns value of aList[j] to aList[i]</em></td>
 </tr>
 <tr>
-<td style="text-align:center"></td>
+<td style="text-align:center">INSERT(aList, i, value)</td>
 <td>aList.insert(i, value)</td>
 <td style="text-align:center"><em>value is placed at index i in aList. Any <br>element at an index greater than i will shift<br>one position to the right. </em></td>
 </tr>
 <tr>
 <td style="text-align:center">APPEND(aList, value)</td>
 <td>aList.append(value)</td>
-<td style="text-align:center">?</td>
+<td style="text-align:center">_value is placed in index i in aList. Any element with an index value greater than i will shift one position to the right.</td>
 </tr>
 <tr>
-<td style="text-align:center">?</td>
+<td style="text-align:center">REMOVE(aList, i)</td>
 <td>aList.pop(i)<br>OR<br>aList.remove(value)</td>
 <td style="text-align:center"><em>Removes item at index i and any values at <br>indices greater than i shift to the left. <br>Length of aList decreased by 1. </em></td>
 </tr>
@@ -207,6 +212,12 @@ window.onload = wrap_img;
 <a class="anchor" href="#Overview-and-Notes:--3.8---Iteration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview and Notes:  3.8 - Iteration<a class="anchor-link" href="#Overview-and-Notes:--3.8---Iteration"> </a>
 </h2>
 <p>Add your <mark>OWN</mark> Notes for 3.8 here:</p>
+<ul>
+<li>To iterate is to repeat. In coding, it is used to describe repeating sections of code based on a set of programs.</li>
+<li>Make sure to not have a dead loop that infinitely repeats.</li>
+<li>Automating code is possible using various types of loops.</li>
+<li>We can make loops inside loops.</li>
+</ul>
 
 </div>
 </div>
@@ -231,21 +242,109 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1">#questions go here (remember to make them strings!)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">qCorrect</span><span class="p">:</span> <span class="mi">0</span>
+<span class="n">qTotal</span><span class="p">:</span> <span class="mi">5</span>
+<span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span><span class="s2">"Q1: what is the python syntax for accessing an element of a list?"</span><span class="p">,</span> 
+     <span class="s2">"A) aList[i]"</span><span class="p">,</span> 
+     <span class="s2">"B) x &lt;-- aList[3]"</span><span class="p">,</span> 
+     <span class="s2">"C) idk"</span><span class="p">,</span>
+     <span class="s2">"A"</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">"Q2: what is the psuedocode syntax for assigning a value of one index in a list to another?"</span><span class="p">,</span> 
+     <span class="s2">"A) aList.insert(i, value)"</span><span class="p">,</span> 
+     <span class="s2">"B) WHAT IS THIS"</span><span class="p">,</span> 
+     <span class="s2">"C) aList[i] = aList[j]"</span><span class="p">,</span>
+     <span class="s2">"C"</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">"Q3: what is the syntax for appending something into a string?"</span><span class="p">,</span> 
+     <span class="s2">"A) aList.append(value)"</span><span class="p">,</span> 
+     <span class="s2">"B) REMOVE(aList, i)"</span><span class="p">,</span> 
+     <span class="s2">"C) help"</span><span class="p">,</span>
+     <span class="s2">"A"</span><span class="p">),</span>
+     
+    <span class="p">(</span><span class="s2">"Q4: what does it mean to append something?"</span><span class="p">,</span> 
+     <span class="s2">"A) To join something together"</span><span class="p">,</span> 
+     <span class="s2">"B) To seperate something"</span><span class="p">,</span> 
+     <span class="s2">"C) what is python?"</span><span class="p">,</span>
+     <span class="s2">"A"</span><span class="p">),</span>
+     
+    <span class="p">(</span><span class="s2">"Q5: what is a recursive loop?"</span><span class="p">,</span>
+     <span class="s2">"A) a loop that is for something"</span><span class="p">,</span>
+     <span class="s2">"B) a function"</span><span class="p">,</span>
+     <span class="s2">"C) loops that involve incrementing a variable until it reaches a certain break point."</span><span class="p">,</span>
+     <span class="s2">"C"</span><span class="p">)</span>
 <span class="p">]</span>
 
-<span class="k">def</span> <span class="nf">questionloop</span><span class="p">():</span>
-    <span class="k">pass</span>
-    <span class="c1">#make an iterative function to ask the questions</span>
-    <span class="c1">#this can be any loop you want as long as it works!</span>
+<span class="k">def</span> <span class="nf">printQuestion</span><span class="p">(</span><span class="nb">tuple</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">tuple</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">tuple</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">tuple</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">qCorrect</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">qTotal</span> <span class="o">=</span> <span class="mi">5</span>
 
-<span class="k">def</span> <span class="nf">answercheck</span><span class="p">():</span>
-    <span class="k">pass</span>
-    <span class="c1">#make a function to check if the answer was correct or not</span>
+<span class="k">def</span> <span class="nf">questionloop</span><span class="p">():</span>  
+  <span class="n">qCorrect</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">qTotal</span> <span class="o">=</span> <span class="mi">5</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">questions</span><span class="p">)):</span>
+      <span class="nb">print</span><span class="p">(</span><span class="n">printQuestion</span><span class="p">(</span><span class="n">questions</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+      <span class="n">qAnswer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"insert answer here..."</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">qAnswer</span> <span class="o">==</span> <span class="n">questions</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">4</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"correct!"</span><span class="p">)</span>
+        <span class="n">qCorrect</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="k">else</span><span class="p">:</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"L you got it wrong"</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">qCorrect</span>
+      
+    
+<span class="n">qCorrect</span> <span class="o">=</span> <span class="n">questionloop</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"you got"</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">qCorrect</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="s2">"/"</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">qTotal</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span>  <span class="s2">"right!"</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Q1: what is the python syntax for accessing an element of a list?
+A) aList[i]
+B) x &lt;-- aList[3]
+C) idk
+None
+correct!
+Q2: what is the psuedocode syntax for assigning a value of one index in a list to another?
+A) aList.insert(i, value)
+B) WHAT IS THIS
+C) aList[i] = aList[j]
+None
+correct!
+Q3: what is the syntax for appending something into a string?
+A) aList.append(value)
+B) REMOVE(aList, i)
+C) help
+None
+correct!
+Q4: what does it mean to append something?
+A) To join something together
+B) To seperate something
+C) what is python?
+None
+L you got it wrong
+Q5: what is a recursive loop?
+A) a loop that is for something
+B) a function
+C) loops that involve incrementing a variable until it reaches a certain break point.
+None
+L you got it wrong
+you got 3 / 5right!
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -301,7 +400,6 @@ window.onload = wrap_img;
 
 <span class="c1"># Insert the item eggs as the third item of the list </span>
 
-<span class="n">grocery_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">"eggs"</span><span class="p">)</span>
 <span class="n">grocery_list</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="s2">"eggs"</span><span class="p">)</span>
 
 <span class="c1"># Remove milk from the list </span>
@@ -310,7 +408,7 @@ window.onload = wrap_img;
 
 <span class="c1"># Assign the element at the end of the list to index 2. Print index 2 to check</span>
 
-<span class="n">grocery_list</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="n">grocery_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">grocery_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">grocery_list</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">grocery_list</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 
 <span class="c1"># Print the entire list, does it match ours ? </span>
@@ -336,8 +434,8 @@ window.onload = wrap_img;
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>carrots
 carrots
-oranges
-['apples', 'eggs', 'oranges', 'carrots', 'cucumbers', 'umbrellas', 'artichokes', 'oranges']
+artichokes
+['apples', 'eggs', 'artichokes', 'carrots', 'cucumbers', 'umbrellas', 'artichokes']
 </pre>
 </div>
 </div>
@@ -367,16 +465,46 @@ oranges
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binarylist</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">"01001001"</span><span class="p">,</span> <span class="s2">"10101010"</span><span class="p">,</span> <span class="s2">"10010110"</span><span class="p">,</span> <span class="s2">"00110111"</span><span class="p">,</span> <span class="s2">"11101100"</span><span class="p">,</span> <span class="s2">"11010001"</span><span class="p">,</span> <span class="s2">"10000001"</span>
-<span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binarylist</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"01001001"</span><span class="p">,</span> <span class="s2">"10101010"</span><span class="p">,</span> <span class="s2">"10010110"</span><span class="p">,</span> <span class="s2">"00110111"</span><span class="p">,</span> <span class="s2">"11101100"</span><span class="p">,</span> <span class="s2">"11010001"</span><span class="p">,</span> <span class="s2">"10000001"</span><span class="p">]</span>
+<span class="n">declist</span> <span class="o">=</span> <span class="p">[]</span>
 
+<span class="c1"># how would I reverse engineer binary bit-by-bit? I don't understand an ounce as to what to do.</span>
 
-<span class="k">def</span> <span class="nf">binary_convert</span><span class="p">(</span><span class="n">binary</span><span class="p">):</span>
-    <span class="k">pass</span>
-    <span class="k">for</span> <span class="n">binary</span> <span class="ow">in</span> <span class="n">binarylist</span><span class="p">:</span>
-        <span class="n">dec</span> <span class="o">=</span> <span class="n">binary</span> <span class="o">%</span> <span class="mi">10</span>
-        <span class="n">decimal</span> <span class="o">=</span> <span class="n">decimal</span> <span class="o">+</span> <span class="n">dec</span> <span class="o">*</span> <span class="nb">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">binary_convert</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">binarylist</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+
+<span class="n">binary_convert</span><span class="p">(</span><span class="n">binarylist</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1001001
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>    
         
     <span class="c1">#use this function to convert every binary value in binarylist to decimal</span>
     <span class="c1">#afterward, get rid of the values that are greater than 100 in decimal</span>
