@@ -63,3 +63,29 @@ layout: post
 - Python Def procedures: Def is used when defining a function/procedure in python
 - Parameters: Input values that help functions and procedures know what values to work with.
 - Return Values: What a procedure gives as an output/resut.
+
+### Search
+- Sequential Search: search method that iterates through each index of a series of data (inefficient compared to binary)
+- Binary Search: A search method that checks the median of a series of data to find the target value. If it's less than the median, than the search algorithm ignores the median and anything greater and repeats. Vice versa if the target is greater than the median.
+### Calling/Developing Procedures
+This was the lesson my group and I taught. See group fastpages for vocab.
+### Libraries
+- Library: A database that contains many different procedures and functions. They are imported through packages.
+- Packages: A collection of methods that do certain things.
+- Documentation: Helpful written explanations to what certain packages in libraries do. 
+### Random Values
+- Random Values : a number generated using a large set of numbers and a mathematical algorithm which gives equal probability to all number occuring,
+### Simulations
+- Simulation: Imitation of a situation or process that works like a virtual experiment
+    -  Abstractions that mimic more complex objects or phenomena from the real world to draw inferences about things we cant observe
+### Algorithmic Efficiency and Undecidable Problems
+- Problem: A general description of a task that can or cannot be solved algorithmically
+    - Decision Problem: A problem with a yes or no answer
+    - Organization Problem: A problem with the goal of finding the best answer
+- Instance: A problem with a specific input
+- Efficiency: Amount of computing needed to solve a problem
+    - Polynomial Efficiency (Good): More work take sa proportional amount of time. 1 job = +2 time
+    - Exponential Efficiency (Bad): More work takes an exponential amount of time. 1 job = x2 time
+- Heuristic Approach: When optimal solutions are inefficient, look for a possibly optimal solution that is more effecient
+- Decidable Problem: A decision problme that has a clear solution that will always make a correct output
+- Undecidable Problem: A decision problem with no solution that is not guaranteed to produce the correct output
