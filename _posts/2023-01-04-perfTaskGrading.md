@@ -4,7 +4,7 @@ title: Performance Task Grading
 toc: true
 comments: true
 categories: [Week 17]
-layout: notebook
+layout: post
 ---
 
 # Student 1
