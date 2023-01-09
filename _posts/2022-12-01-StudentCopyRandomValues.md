@@ -35,6 +35,10 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>ADD YOUR ADDITIONAL NOTES HERE:</p>
+<ul>
+<li>Lists make it so every number has an equal chance of being picked if chosen at random.</li>
+<li>Some topics that use luck are rolling dice, cryptography, etc.</li>
+</ul>
 
 </div>
 </div>
@@ -65,6 +69,10 @@ Using random number generation in a program means each execution may produce a d
 <p>What are Examples of Random outputs in the world?  Add a few you can think of.</p>
 <ul>
 <li>Ex: Marbles</li>
+<li>Cryptography</li>
+<li>Dice</li>
+<li>Statistics</li>
+<li>The Lottery</li>
 </ul>
 
 </div>
@@ -72,7 +80,8 @@ Using random number generation in a program means each execution may produce a d
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Why-do-we-need-Random-Values-for-code?">Why do we need Random Values for code?<a class="anchor-link" href="#Why-do-we-need-Random-Values-for-code?"> </a></h2>
+<h2 id="Why-do-we-need-Random-Values-for-code?">Why do we need Random Values for code?<a class="anchor-link" href="#Why-do-we-need-Random-Values-for-code?"> </a></h2><p>We need random values for code because when we want to run things like simulations, we need to be able to simulate the randomness of the real world. Furthurmore, it's good for testing and debugging code.</p>
+
 </div>
 </div>
 </div>
@@ -98,6 +107,20 @@ Using random number generation in a program means each execution may produce a d
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>92
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     {% endraw %}
 
@@ -108,7 +131,9 @@ Using random number generation in a program means each execution may produce a d
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">randomlist</span><span class="p">():</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">randomlist</span><span class="p">():</span>
     <span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">,</span> <span class="s2">&quot;blueberry&quot;</span><span class="p">]</span>
     <span class="n">element</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
@@ -116,6 +141,20 @@ Using random number generation in a program means each execution may produce a d
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>blueberry
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -189,10 +228,6 @@ Roll 3:4
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="s2">&quot;tails&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">coinflip</span><span class="p">())</span>
-
-<span class="k">def</span> <span class="nf">rFlush1</span><span class="p">():</span>
-    <span class="n">cardSuit</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;hearts&quot;</span><span class="p">,</span> <span class="s2">&quot;diamonds&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">],</span> 
-    <span class="k">if</span> <span class="n">rCard1</span> <span class="o">==</span> 
 </pre></div>
 
     </div>
@@ -204,12 +239,8 @@ Roll 3:4
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-cyan-fg">  Input </span><span class="ansi-green-fg">In [18]</span>
-<span class="ansi-red-fg">    if rCard1 ==</span>
-                 ^
-<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>heads
 </pre>
 </div>
 </div>
@@ -235,6 +266,67 @@ as Extra convert it to hexidecimal as well.</p>
 </div>
 </div>
 </div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">r</span> 
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">decToBin</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">bin</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">decToHex</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">hexDec</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">while</span> <span class="n">N</span><span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">rm</span> <span class="o">=</span> <span class="n">N</span> <span class="o">%</span> <span class="mi">16</span>
+        <span class="k">if</span> <span class="n">rm</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">:</span>
+            <span class="n">rm</span> <span class="o">=</span> <span class="n">rm</span><span class="o">+</span><span class="mi">48</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rm</span> <span class="o">=</span> <span class="n">rm</span><span class="o">+</span><span class="mi">55</span>
+        <span class="n">hexDec</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">chr</span><span class="p">(</span><span class="n">rm</span><span class="p">))</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+        <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span> <span class="o">/</span> <span class="mi">16</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Equivalent Hexadecimal Value = &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
+    <span class="k">while</span> <span class="n">i</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">end</span><span class="o">=</span><span class="n">hexDec</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Original number: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Binary: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">decToBin</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span>
+<span class="n">decToHex</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Original number: 165
+
+Binary: 0b10100101
+
+Equivalent Hexadecimal Value = A5</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 

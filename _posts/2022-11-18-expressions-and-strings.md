@@ -147,7 +147,9 @@ Hint: use the MOD operator (a % b) to find the remainder when a is divided by b.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="n">dec</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">def</span> <span class="nf">convert</span><span class="p">(</span><span class="n">dec</span><span class="p">):</span>
     <span class="nb">bin</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">7</span>
     <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">:</span>
@@ -159,7 +161,7 @@ Hint: use the MOD operator (a % b) to find the remainder when a is divided by b.
             <span class="n">dec</span> <span class="o">-=</span> <span class="mi">2</span><span class="o">**</span><span class="n">i</span>
             <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">bin</span><span class="p">)</span>
-<span class="n">convert</span><span class="p">(</span><span class="mi">37</span><span class="p">)</span>
+<span class="n">convert</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">))</span>
     
 </pre></div>
 
@@ -173,7 +175,7 @@ Hint: use the MOD operator (a % b) to find the remainder when a is divided by b.
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>00100101
+<pre>01011101
 </pre>
 </div>
 </div>

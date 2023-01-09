@@ -84,7 +84,56 @@ One advantage is that simulations can account for natural variables using random
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>5
+<pre>3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">r</span>
+
+<span class="k">def</span> <span class="nf">coinFlip</span><span class="p">():</span>         
+    <span class="n">randomflip</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="c1"># Weighting the coins, basically increasing the range that it will be heads.</span>
+    <span class="k">if</span> <span class="n">randomflip</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="c1">#assigning anything greater than 1 to be heads. If 2 or 3 is chosen then it will print, &quot;Heads&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Heads&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tails&quot;</span><span class="p">)</span>
+
+<span class="c1">#Tossing the coin 5 times:</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t4</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t5</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Heads
+Tails
+Tails
+Heads
+Heads
 </pre>
 </div>
 </div>
@@ -243,6 +292,7 @@ One advantage is that simulations can account for natural variables using random
 <h2 id="Hack-#1">Hack #1<a class="anchor-link" href="#Hack-#1"> </a></h2><ul>
 <li>Create an idea for a simulation and describe it (you don’t actually have to code it just think about/answer the guiding questions).</li>
 </ul>
+<p>An idea for a simulation would be a simulation that shows the effects of climate change. It would simulate real world conditions and a change in the climate based off of previous statistics. An experiment would not work very well here as it would be very hard to simulate the world's climate an how it changes based on different variables. A simulation would work very well, as the computer can calculate all of these values with all of the world's data to compile it into a simulated world where we can view the effects of climate change.</p>
 
 </div>
 </div>
@@ -303,6 +353,63 @@ One advantage is that simulations can account for natural variables using random
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Welcome to the Simulations Quiz!
+
+ True or False: Simulations will always have the same result. 
+ A: True, 
+ B: False
+You said:  B
+Correct!
+
+ True or False: A simulation has results that are more accurate than an experiment 
+ A: True, 
+ B: False
+You said:  B
+Correct!
+
+ True or False: A simulation can model real world events that are not practical for experiments 
+ A: True, 
+ B: False
+You said:  A
+Correct!
+
+ Which one of these is FALSE regarding simulations 
+ A: Reduces Costs, 
+ B: Is safer than real life experiments, 
+ C: More Efficient, 
+ D: More accurate than real life experiments
+You said:  D
+Correct!
+
+ Which of the following scenarios would be the LEAST beneficial to have as a simulation 
+ A: A retail company wants to identify the item which sold the most on their website, 
+ B: A restaurant wants to determine if the use of robots will increase efficiency, 
+ C: An insurance company wants to study the impact of rain on car accidents, 
+ D: A sports car company wants to study design changes to their new bike design 
+You said:  A
+Correct!
+
+ Which of the following is better to do as a simulation than as a calculation 
+ A: Keeping score at a basketball game, 
+ B: Keeping track of how many games a person has won, 
+ C: Determining the average grade for a group of tests, 
+ D: Studying the impact of carbon emissions on the environment
+You said:  D
+Correct!
+You scored:  6 /6
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 

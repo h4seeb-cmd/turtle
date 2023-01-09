@@ -46,6 +46,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
+    jekyll-jupyter-notebook (0.0.5)
+      jekyll
     jekyll-octicons (17.5.0)
       jekyll (>= 3.6, < 5.0)
       octicons (= 17.5.0)
@@ -136,6 +138,7 @@ DEPENDENCIES
   jekyll (~> 4.1.0)
   jekyll-feed (~> 0.12)
   jekyll-gist
+  jekyll-jupyter-notebook
   jekyll-octicons
   jekyll-paginate
   jekyll-relative-links
