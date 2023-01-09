@@ -22,6 +22,22 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/turtle/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://h4seeb-cmd.github.io/turtle/feed.xml" title="TURTLE" /><link rel="shortcut icon" type="image/x-icon" href="/turtle/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
 
 <script>
 function wrap_img(fn) {
@@ -79,14 +95,15 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      10 min read
     
 </span></p>
 
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/turtle/categories/#lesson8">lesson8</a>
+          <a class="category-tags-link" href="/turtle/categories/ap#lesson8">lesson8</a>
+        
         
       
       </p>
@@ -245,7 +262,56 @@ One advantage is that simulations can account for natural variables using random
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>5
+<pre>3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="k">as</span> <span class="nn">r</span>
+
+<span class="k">def</span> <span class="nf">coinFlip</span><span class="p">():</span>         
+    <span class="n">randomflip</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="c1"># Weighting the coins, basically increasing the range that it will be heads.</span>
+    <span class="k">if</span> <span class="n">randomflip</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="c1">#assigning anything greater than 1 to be heads. If 2 or 3 is chosen then it will print, "Heads"</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Heads"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+         <span class="nb">print</span><span class="p">(</span><span class="s2">"Tails"</span><span class="p">)</span>
+
+<span class="c1">#Tossing the coin 5 times:</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t4</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+<span class="n">t5</span> <span class="o">=</span> <span class="n">coinFlip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Heads
+Tails
+Tails
+Heads
+Heads
 </pre>
 </div>
 </div>
@@ -438,6 +504,7 @@ One advantage is that simulations can account for natural variables using random
 <ul>
 <li>Create an idea for a simulation and describe it (you don’t actually have to code it just think about/answer the guiding questions).</li>
 </ul>
+<p>An idea for a simulation would be a simulation that shows the effects of climate change. It would simulate real world conditions and a change in the climate based off of previous statistics. An experiment would not work very well here as it would be very hard to simulate the world's climate an how it changes based on different variables. A simulation would work very well, as the computer can calculate all of these values with all of the world's data to compile it into a simulated world where we can view the effects of climate change.</p>
 
 </div>
 </div>
@@ -502,6 +569,63 @@ One advantage is that simulations can account for natural variables using random
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Welcome to the Simulations Quiz!
+
+ True or False: Simulations will always have the same result. 
+ A: True, 
+ B: False
+You said:  B
+Correct!
+
+ True or False: A simulation has results that are more accurate than an experiment 
+ A: True, 
+ B: False
+You said:  B
+Correct!
+
+ True or False: A simulation can model real world events that are not practical for experiments 
+ A: True, 
+ B: False
+You said:  A
+Correct!
+
+ Which one of these is FALSE regarding simulations 
+ A: Reduces Costs, 
+ B: Is safer than real life experiments, 
+ C: More Efficient, 
+ D: More accurate than real life experiments
+You said:  D
+Correct!
+
+ Which of the following scenarios would be the LEAST beneficial to have as a simulation 
+ A: A retail company wants to identify the item which sold the most on their website, 
+ B: A restaurant wants to determine if the use of robots will increase efficiency, 
+ C: An insurance company wants to study the impact of rain on car accidents, 
+ D: A sports car company wants to study design changes to their new bike design 
+You said:  A
+Correct!
+
+ Which of the following is better to do as a simulation than as a calculation 
+ A: Keeping score at a basketball game, 
+ B: Keeping track of how many games a person has won, 
+ C: Determining the average grade for a group of tests, 
+ D: Studying the impact of carbon emissions on the environment
+You said:  D
+Correct!
+You scored:  6 /6
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -1030,7 +1154,7 @@ function start() {
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          <a href="/turtle/feed.xml">
+          <a href="https://h4seeb-cmd.github.io/turtle/feed.xml">
             <svg class="svg-icon orange">
               <use xlink:href="/turtle/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>
