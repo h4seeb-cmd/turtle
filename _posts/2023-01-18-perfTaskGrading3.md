@@ -1,6 +1,6 @@
 ---
 description: Grading other students' collegeboard performance tasks
-title: Performance Task Grading 2
+title: Performance Task Grading 3
 toc: true
 comments: true
 categories: [Week 19]
@@ -175,19 +175,19 @@ layout: post
       <td>Row 1</td>
       <td>1</td>
       <td>1</td>
-      <td>The student met all of the requirements. The video showed the code running, and it specifies the program's purpose. Additionaly, the response adequately describes the program's functionality as seen in the video. The response also describes the input and output.</td>
+      <td>The student met the requirement of recording a video that demonstrates the code working, and they specified the code's purpose adequately.</td>
     </tr>
         <tr>
       <td>Row 2</td>
       <td>1</td>
-      <td>0</td>
-      <td>I believed that the student met all of the requirements because 2 code segments were shown, however Collegeboard wrote that the data in the second list is not accessed, so it doesn't count.</td>
+      <td>1</td>
+      <td>The student met all of the requirements because 2 code segments were shown, the first segment shows data being stored in the identified list and a second segment showing data being accessed from the list. The list is named nounList, and the response identifies what is stored in the list.</td>
     </tr>
     <tr>
       <td>Row 3</td>
-      <td>0</td>
-      <td>0</td>
-      <td>The list shown in the response does not manage complexity, as it's purpose is to count, however this can simply be done by a variable.</td>
+      <td>1</td>
+      <td>1</td>
+      <td>The program correctly stated why lists are important for managing complexity.</td>
     </tr>
         <tr>
       <td>Row 4</td>
@@ -205,9 +205,12 @@ layout: post
       <td>Row 6</td>
       <td>1</td>
       <td>0</td>
-      <td>I thought that the student met all of the requirements by describing two calls to the procedure with different arguments, by describing the conditions being tested for the two procedure calls, and by identifying the results of each call. However, according to Collegeboard, the response gives the conditions being tested rather than two different arguments that cause a different segment of code to execute.</td>
+      <td>The student almost met all of the requirements, however their response does not describe specific arguments that are passed through the parameters.</td>
     </tr>
   </tbody>
 </table>
 
+
+
 # Overall Reflection
+Collegeboard seems to grade a lot harder than I initially thought. They seem to be very picky on the explanation, and it's not about what the code is, but more so how the student explalins the code. 
