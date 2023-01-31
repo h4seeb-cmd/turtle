@@ -91,7 +91,7 @@
     
         ,"post8": {
             "title": "CPT plan",
-            "content": "For my create performance task, I will be creating an arcade game (see subpage for demo screen), and I will be doing the leaderboard as well. .",
+            "content": "For my create performance task, I will be creating an arcade game (see subpage for demo screen), and I will be doing the leaderboard as well. For the video, I’ll be showcasing the arcade game, as that is my main tangible contribution. It’s going to take input via button clicks, and it will pull randomized data from an api for the questions. I may need an API for different trivia questions, and I may need a randomizer python library. .",
             "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/week%2020/2023/01/30/CBPLAN.html",
             "relUrl": "/fastpages/jupyter/week%2020/2023/01/30/CBPLAN.html",
             "date": " • Jan 30, 2023"
