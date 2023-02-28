@@ -57,7 +57,7 @@ The procedure starts by checking whether or not an answer was clicked, if false,
 
 ### 3.d.i
 showing calls being made
-
+(take before and after screenshots of clicking and showing answrs)
 ### 3.d.ii
 
 What's being tested in these calls is the validity of the user's answer. If the answer submitted is the same as correctAnswer in the API, a point is given and a new question is loaded. If the answer is incorrect, the procedure will return an output of "Wrong Answer! Correct Answer: * insert correct answer here *." The procedure will then restart the game.
