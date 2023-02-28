@@ -53,3 +53,14 @@ The procedure checkAnswer is responsible for validating the user input, and whet
 ### 3.c.iv
 The procedure starts by checking whether or not an answer was clicked, if false, the procedure will immediately output "Please click an option.", if an option is selected then the procedure will check exactly what was selected and submitted. If the input is equal to the correct answer as defined in the API, then it will return "Correct Answer", and it will add 1 point to the total score, it will then load the next random question. If the input is incorrect, then the procedure will return an output of "Wrong Answer! Correct Answer: * insert correct answer here *." The procedure will then restart the game.
 
+## 3d
+
+### 3.d.i
+showing calls being made
+
+### 3.d.ii
+
+What's being tested in these calls is the validity of the user's answer. If the answer submitted is the same as correctAnswer in the API, a point is given and a new question is loaded. If the answer is incorrect, the procedure will return an output of "Wrong Answer! Correct Answer: * insert correct answer here *." The procedure will then restart the game.
+
+### 3.diii
+result of said calls
