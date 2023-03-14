@@ -10,7 +10,7 @@ layout: post
 ---
 # Data Compression
 
-![]({{site.baseurl}}/images/cbquizdatacompress.png)
+![]({{site.baseurl}}/images/cbquizdatacompression.png)
 
 This quiz was very quick for me, and honestly, the only really slightly challenging question was #3.
 
