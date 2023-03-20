@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "DEBUGGING EXAMPLE",
-            "content": ". For this example, I am putting a breakpoint and using the create() function. . . I step into the function and add “TESTER QUESTION 15” . . The function then asks me to input a correct answer . . The correct answer is then added to the list of variables in the debug menu. . . I enter the info for the rest of the prompts and when finished, it successfully creates the question record. . . Here is that record being displayed on the .db file. .",
+            "content": ". For this example, I am putting a breakpoint and using the create() function. . . I step into the function and add “TESTER QUESTION 15” . . The function then asks me to input a correct answer . . The correct answer is then added to the list of variables in the debug menu. . . I enter the info for the rest of the prompts and when finished, it successfully creates the question record. . . Here is that record being displayed on the .db file. . This process is very similar for read(), update(), and delete(). I just chose to use create() because this showcases how the debugging works the clearest. .",
             "url": "https://h4seeb-cmd.github.io/turtle/fastpages/jupyter/week%2026/2023/03/20/debug.html",
             "relUrl": "/fastpages/jupyter/week%2026/2023/03/20/debug.html",
             "date": " • Mar 20, 2023"
