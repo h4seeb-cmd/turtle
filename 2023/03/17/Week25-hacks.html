@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Title | TURTLE</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Turtles are pretty cool" />
+<meta property="og:description" content="Turtles are pretty cool" />
+<link rel="canonical" href="https://h4seeb-cmd.github.io/turtle/2023/03/17/Week25-hacks.html" />
+<meta property="og:url" content="https://h4seeb-cmd.github.io/turtle/2023/03/17/Week25-hacks.html" />
+<meta property="og:site_name" content="TURTLE" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-17T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Title" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-17T00:00:00-05:00","datePublished":"2023-03-17T00:00:00-05:00","description":"Turtles are pretty cool","headline":"Title","mainEntityOfPage":{"@type":"WebPage","@id":"https://h4seeb-cmd.github.io/turtle/2023/03/17/Week25-hacks.html"},"url":"https://h4seeb-cmd.github.io/turtle/2023/03/17/Week25-hacks.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/turtle/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://h4seeb-cmd.github.io/turtle/feed.xml" title="TURTLE" /><link rel="shortcut icon" type="image/x-icon" href="/turtle/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/turtle/">TURTLE</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/turtle/about/">About Me</a><a class="page-link" href="/turtle/leaderboardView/">Leaderboard Prototype</a><a class="page-link" href="/turtle/lectures/">Class Lectures</a><a class="page-link" href="/turtle/search/">Search</a><a class="page-link" href="/turtle/sprints/">Work Sprints</a><a class="page-link" href="/turtle/submenu/">Submenu2</a><a class="page-link" href="/turtle/categories/">Tags</a><a class="page-link" href="/turtle/triv/">Trivia Prototype</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-17T00:00:00-05:00" itemprop="datePublished">
+        Mar 17, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      22 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/h4seeb-cmd/turtle/tree/master/_notebooks/2023-03-17-Week25-hacks.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/turtle/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/h4seeb-cmd/turtle/master?filepath=_notebooks%2F2023-03-17-Week25-hacks.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/turtle/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/h4seeb-cmd/turtle/blob/master/_notebooks/2023-03-17-Week25-hacks.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/turtle/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fh4seeb-cmd%2Fturtle%2Fblob%2Fmaster%2F_notebooks%2F2023-03-17-Week25-hacks.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/turtle/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2023-03-17-Week25-hacks.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from random import randrange</span>
+<span class="c1"># from datetime import date</span>
+<span class="c1"># import os, base64</span>
+<span class="c1"># import json</span>
+<span class="c1"># import random</span>
+<span class="c1"># from flask import request</span>
+<span class="c1"># from sqlalchemy.exc import IntegrityError</span>
+
+
+<span class="c1"># from flask import Flask, jsonify</span>
+<span class="c1"># from flask_sqlalchemy import SQLAlchemy</span>
+
+
+<span class="c1"># # Setup of key Flask object (app)</span>
+<span class="c1"># app = Flask(__name__)</span>
+<span class="c1"># # Setup SQLAlchemy object and properties for the database (db)</span>
+<span class="c1"># database = &#39;sqlite:///QA.db&#39;  # path and filename of database</span>
+<span class="c1"># app.config[&#39;SQLALCHEMY_TRACK_MODIFICATIONS&#39;] = False</span>
+<span class="c1"># app.config[&#39;SQLALCHEMY_DATABASE_URI&#39;] = database</span>
+<span class="c1"># app.config[&#39;SECRET_KEY&#39;] = &#39;SECRET_KEY&#39;</span>
+<span class="c1"># db = SQLAlchemy()</span>
+
+
+<span class="c1"># # This belongs in place where it runs once per project</span>
+<span class="c1"># db.init_app(app)</span>
+
+
+
+
+<span class="c1"># &#39;&#39;&#39; Tutorial: https://www.sqlalchemy.org/library.html#tutorials, try to get into Python shell and follow along &#39;&#39;&#39;</span>
+
+<span class="c1"># # Define the Post class to manage actions in &#39;posts&#39; table,  with a relationship to &#39;users&#39; table</span>
+<span class="c1"># class Post(db.Model):</span>
+<span class="c1">#     __tablename__ = &#39;posts&#39;</span>
+<span class="c1">#     __table_args__ = {&#39;extend_existing&#39;: True}</span>
+<span class="c1">#     # Define the Notes schema</span>
+<span class="c1">#     id = db.Column(db.Integer, primary_key=True)</span>
+<span class="c1">#     note = db.Column(db.Text, unique=False, nullable=False)</span>
+<span class="c1">#     image = db.Column(db.String, unique=False)</span>
+<span class="c1">#     # Define a relationship in Notes Schema to userID who originates the note, many-to-one (many notes to one user)</span>
+<span class="c1">#     userID = db.Column(db.Integer, db.ForeignKey(&#39;qAs.id&#39;))</span>
+
+<span class="c1">#     # Constructor of a Notes object, initializes of instance variables within object</span>
+<span class="c1">#     def __init__(self, id, note, image):</span>
+<span class="c1">#         self.userID = id</span>
+<span class="c1">#         self.note = note</span>
+<span class="c1">#         self.image = image</span>
+
+<span class="c1">#     # Returns a string representation of the Notes object, similar to java toString()</span>
+<span class="c1">#     # returns string</span>
+<span class="c1">#     def __repr__(self):</span>
+<span class="c1">#         return &quot;Notes(&quot; + str(self.id) + &quot;,&quot; + self.note + &quot;,&quot; + str(self.userID) + &quot;)&quot;</span>
+
+<span class="c1">#     # CRUD create, adds a new record to the Notes table</span>
+<span class="c1">#     # returns the object added or None in case of an error</span>
+<span class="c1">#     def create(self):</span>
+<span class="c1">#         try:</span>
+<span class="c1">#             # creates a Notes object from Notes(db.Model) class, passes initializers</span>
+<span class="c1">#             db.session.add(self)  # add prepares to persist person object to Notes table</span>
+<span class="c1">#             db.session.commit()  # SqlAlchemy &quot;unit of work pattern&quot; requires a manual commit</span>
+<span class="c1">#             return self</span>
+<span class="c1">#         except IntegrityError:</span>
+<span class="c1">#             db.session.remove()</span>
+<span class="c1">#             return None</span>
+
+<span class="c1">#     # CRUD read, returns dictionary representation of Notes object</span>
+<span class="c1">#     # returns dictionary</span>
+<span class="c1">#     def read(self):</span>
+<span class="c1">#         # encode image</span>
+<span class="c1">#         path = app.config[&#39;UPLOAD_FOLDER&#39;]</span>
+<span class="c1">#         file = os.path.join(path, self.image)</span>
+<span class="c1">#         file_text = open(file, &#39;rb&#39;)</span>
+<span class="c1">#         file_read = file_text.read()</span>
+<span class="c1">#         file_encode = base64.encodebytes(file_read)</span>
+        
+<span class="c1">#         return {</span>
+<span class="c1">#             &quot;id&quot;: self.id,</span>
+<span class="c1">#             &quot;userID&quot;: self.userID,</span>
+<span class="c1">#             &quot;note&quot;: self.note,</span>
+<span class="c1">#             &quot;image&quot;: self.image,</span>
+<span class="c1">#         }</span>
+
+
+<span class="c1"># # Define the User class to manage actions in the &#39;users&#39; table</span>
+<span class="c1"># # -- Object Relational Mapping (ORM) is the key concept of SQLAlchemy</span>
+<span class="c1"># # -- a.) db.Model is like an inner layer of the onion in ORM</span>
+<span class="c1"># # -- b.) User represents data we want to store, something that is built on db.Model</span>
+<span class="c1"># # -- c.) SQLAlchemy ORM is layer on top of SQLAlchemy Core, then SQLAlchemy engine, SQL</span>
+
+
+
+
+
+
+
+<span class="c1"># class QA(db.Model):</span>
+<span class="c1">#     __tablename__ = &#39;qAs&#39;  # table name is plural, class name is singular</span>
+<span class="c1">#     __table_args__ = {&#39;extend_existing&#39;: True}</span>
+<span class="c1">#     # Define the User schema with &quot;vars&quot; from object</span>
+<span class="c1">#     id = db.Column(db.Integer, primary_key=True)</span>
+<span class="c1">#     _question = db.Column(db.String(255), unique=False, nullable=False)</span>
+<span class="c1">#     _correctAnswer = db.Column(db.String(255), unique=False, nullable=False)</span>
+<span class="c1">#     _incorrectAnswer1 = db.Column(db.String(255), unique=False, nullable = False)</span>
+<span class="c1">#     _incorrectAnswer2 = db.Column(db.String(255), unique=False, nullable = False)</span>
+<span class="c1">#     _incorrectAnswer3 = db.Column(db.String(255), unique=False, nullable = False)</span>
+
+<span class="c1">#     # Defines a relationship between User record and Notes table, one-to-many (one user to many notes)</span>
+<span class="c1">#     posts = db.relationship(&quot;Post&quot;, cascade=&#39;all, delete&#39;, backref=&#39;users&#39;, lazy=True)</span>
+
+<span class="c1">#     # constructor of a User object, initializes the instance variables within object (self)</span>
+<span class="c1">#     def __init__(self, question, correctAnswer, incorrectAnswer1, incorrectAnswer2, incorrectAnswer3):</span>
+<span class="c1">#         self._question = question    # variables with self prefix become part of the object, </span>
+<span class="c1">#         self._correctAnswer = correctAnswer</span>
+<span class="c1">#         self._incorrectAnswer1 = incorrectAnswer1</span>
+<span class="c1">#         self._incorrectAnswer2 = incorrectAnswer2</span>
+<span class="c1">#         self._incorrectAnswer3 = incorrectAnswer3</span>
+        
+
+
+<span class="c1">#     # a name getter method, extracts name from object</span>
+<span class="c1">#     @property</span>
+<span class="c1">#     def question(self):</span>
+<span class="c1">#         return self._question</span>
+    
+<span class="c1">#     # a setter function, allows name to be updated after initial object creation</span>
+<span class="c1">#     @question.setter</span>
+<span class="c1">#     def question(self, name):</span>
+<span class="c1">#         self._question = name</span>
+    
+<span class="c1">#     # a getter method, extracts email from object</span>
+<span class="c1">#     @property</span>
+<span class="c1">#     def correctAnswer(self):</span>
+<span class="c1">#         return self._correctAnswer</span>
+    
+<span class="c1">#     # a setter function, allows name to be updated after initial object creation</span>
+<span class="c1">#     @correctAnswer.setter</span>
+<span class="c1">#     def correctAnswer(self, correctAnswer):</span>
+<span class="c1">#         self._correctAnswer = correctAnswer</span>
+        
+<span class="c1">#     # check if uid parameter matches user id in object, return boolean</span>
+<span class="c1">#     def is_uid(self, correctAnswer):</span>
+<span class="c1">#         return self._correctAnswer == correctAnswer</span>
+    
+<span class="c1">#         # a getter method, extracts email from object</span>
+<span class="c1">#     @property</span>
+<span class="c1">#     def incorrectAnswer1(self):</span>
+<span class="c1">#         return self._incorrectAnswer1</span>
+    
+<span class="c1">#     # a setter function, allows name to be updated after initial object creation</span>
+<span class="c1">#     @incorrectAnswer1.setter</span>
+<span class="c1">#     def incorrectAnswer1(self, incorrectAnswer1):</span>
+<span class="c1">#         self._incorrectAnswer1 = incorrectAnswer1</span>
+        
+<span class="c1">#     # check if uid parameter matches user id in object, return boolean</span>
+<span class="c1">#     def is_uid(self, incorrectAnswer1):</span>
+<span class="c1">#         return self._incorrectAnswer1 == incorrectAnswer1</span>
+    
+<span class="c1">#     @property</span>
+<span class="c1">#     def incorrectAnswer2(self):</span>
+<span class="c1">#         return self._incorrectAnswer2</span>
+    
+<span class="c1">#     # a setter function, allows name to be updated after initial object creation</span>
+<span class="c1">#     @incorrectAnswer2.setter</span>
+<span class="c1">#     def incorrectAnswer2(self, incorrectAnswer2):</span>
+<span class="c1">#         self._incorrectAnswer2 = incorrectAnswer2</span>
+        
+<span class="c1">#     # check if uid parameter matches user id in object, return boolean</span>
+<span class="c1">#     def is_uid(self, incorrectAnswer2):</span>
+<span class="c1">#         return self._incorrectAnswer2 == incorrectAnswer2</span>
+    
+    
+<span class="c1">#     @property</span>
+<span class="c1">#     def incorrectAnswer3(self):</span>
+<span class="c1">#         return self._incorrectAnswer3</span>
+    
+<span class="c1">#     # a setter function, allows name to be updated after initial object creation</span>
+<span class="c1">#     @incorrectAnswer3.setter</span>
+<span class="c1">#     def incorrectAnswer3(self, incorrectAnswer3):</span>
+<span class="c1">#         self._incorrectAnswer3 = incorrectAnswer3</span>
+        
+<span class="c1">#     # check if uid parameter matches user id in object, return boolean</span>
+<span class="c1">#     def is_uid(self, incorrectAnswer3):</span>
+<span class="c1">#         return self._incorrectAnswer3 == incorrectAnswer3</span>
+    
+
+<span class="c1">#     # output content using str(object) in human readable form, uses getter</span>
+<span class="c1">#     # output content using json dumps, this is ready for API response</span>
+<span class="c1">#     def __str__(self):</span>
+<span class="c1">#         return json.dumps(self.read())</span>
+
+<span class="c1">#     # CRUD create/add a new record to the table</span>
+<span class="c1">#     # returns self or None on error</span>
+<span class="c1">#     def create(self):</span>
+<span class="c1">#         try:</span>
+<span class="c1">#             # creates a person object from User(db.Model) class, passes initializers</span>
+<span class="c1">#             db.session.add(self)  # add prepares to persist person object to Users table</span>
+<span class="c1">#             db.session.commit()  # SqlAlchemy &quot;unit of work pattern&quot; requires a manual commit</span>
+<span class="c1">#             return self</span>
+<span class="c1">#         except IntegrityError:</span>
+<span class="c1">#             db.session.remove()</span>
+<span class="c1">#             return None</span>
+
+<span class="c1">#     # CRUD read converts self to dictionary</span>
+<span class="c1">#     # returns dictionary</span>
+<span class="c1">#     def read(self):</span>
+<span class="c1">#         return {</span>
+<span class="c1">#             #&quot;id&quot;: self.id,</span>
+<span class="c1">#             &quot;question&quot;: self._question,</span>
+<span class="c1">#             &quot;correctAnswer&quot;: self._correctAnswer,</span>
+<span class="c1">#             &quot;incorrectAnswer1&quot;: self._incorrectAnswer1,</span>
+<span class="c1">#             &quot;incorrectAnswer2&quot;: self._incorrectAnswer2,</span>
+<span class="c1">#             &quot;incorrectAnswer3&quot;: self._incorrectAnswer3</span>
+<span class="c1">#         }</span>
+
+<span class="c1">#     # CRUD update: updates user name, password, phone</span>
+<span class="c1">#     # returns self</span>
+<span class="c1">#     def update(self, question=&quot;&quot;, correctAnswer=&quot;&quot;, incorrectAnswer1 = &quot;&quot;,  incorrectAnswer2 = &quot;&quot;,  incorrectAnswer3 = &quot;&quot;):</span>
+<span class="c1">#         &quot;&quot;&quot;only updates values with length&quot;&quot;&quot;</span>
+<span class="c1">#         if len(question) &gt; 0:</span>
+<span class="c1">#             self.question = question</span>
+<span class="c1">#         if len(correctAnswer) &gt; 0:</span>
+<span class="c1">#             self.correctAnswer = correctAnswer</span>
+<span class="c1">#         if len(incorrectAnswer1) &gt; 0:</span>
+<span class="c1">#             self.incorrectAnswer1 = incorrectAnswer1</span>
+<span class="c1">#         if len(incorrectAnswer2) &gt; 0:</span>
+<span class="c1">#             self.incorrectAnswer2 = incorrectAnswer2</span>
+<span class="c1">#         if len(incorrectAnswer3) &gt; 0:</span>
+<span class="c1">#             self.incorrectAnswer3 = incorrectAnswer3</span>
+<span class="c1">#         db.session.commit()</span>
+<span class="c1">#         return self</span>
+
+<span class="c1">#     # CRUD delete: remove self</span>
+<span class="c1">#     # None</span>
+<span class="c1">#     def delete(self):</span>
+<span class="c1">#         db.session.delete(self)</span>
+<span class="c1">#         db.session.commit()</span>
+<span class="c1">#         return None</span>
+
+
+<span class="c1"># &quot;&quot;&quot;Database Creation and Testing &quot;&quot;&quot;</span>
+
+
+<span class="c1"># # Builds working data for testing</span>
+<span class="c1"># def initQAs():</span>
+<span class="c1">#     with app.app_context():</span>
+<span class="c1">#         &quot;&quot;&quot;Create database and tables&quot;&quot;&quot;</span>
+<span class="c1">#         db.create_all()</span>
+<span class="c1">#         &quot;&quot;&quot;Tester data for table&quot;&quot;&quot;</span>
+<span class="c1">#         q1 = QA(question=&#39;What is a CPU?&#39;, correctAnswer=&#39;central processing unit&#39;, incorrectAnswer1 = &#39;coolant protection unit&#39;, incorrectAnswer2 = &#39;unit processor&#39;, incorrectAnswer3 = &#39;man idk&#39;)</span>
+<span class="c1">#         q2 = QA(question=&#39;What does HTML stand for?&#39;, correctAnswer=&#39;Hypertext Markup Language&#39;, incorrectAnswer1 = &#39;Hyperlink Maker Language&#39;, incorrectAnswer2 = &#39;Hyper Mail Markup&#39;, incorrectAnswer3 = &#39;Humphrey Man Table Lawnmower&#39;)</span>
+<span class="c1">#         q3 = QA(question=&#39;What do we use AWS for?&#39;, correctAnswer=&#39;Deployment&#39;, incorrectAnswer1 = &#39;Fortnite&#39;, incorrectAnswer2 = &#39;Minecraft&#39;, incorrectAnswer3 = &#39;Java&#39;)</span>
+<span class="c1">#         q4 = QA(question=&#39;How do we access Linux on our machines?&#39;, correctAnswer=&#39;wsl&#39;, incorrectAnswer1 = &#39;pylance&#39;, incorrectAnswer2 = &#39;Mongodb&#39;, incorrectAnswer3 = &#39;ReactJS&#39;)</span>
+<span class="c1">#         q5 = QA(question=&#39;Who is our teacher?&#39;, correctAnswer=&#39;mr. yeung&#39;, incorrectAnswer1 = &#39;jmort223&#39;, incorrectAnswer2 = &#39;nathanial kim&#39;, incorrectAnswer3 = &#39;sabine&#39;)</span>
+<span class="c1">#         q6 = QA(question=&#39;What does FUBAR stand for?&#39;, correctAnswer=&#39;Funked up beyond repair&#39;, incorrectAnswer1 = &#39;Flipped u before reprimanding&#39;, incorrectAnswer2 = &#39;Family Under Bad Analogies Reviewed&#39;, incorrectAnswer3 = &#39;Fun Ultra Boat Also Rollerblades&#39;)</span>
+<span class="c1">#         q7 = QA(question=&#39;How many sprints have we gone through this year?&#39;, correctAnswer=&#39;23&#39;, incorrectAnswer1 = &#39;1&#39;, incorrectAnswer2 = &#39;18&#39;, incorrectAnswer3 = &#39;52&#39;)</span>
+<span class="c1">#         q8 = QA(question=&#39;Which is NOT an example of proper PII?&#39;, correctAnswer=&#39;Your car&#39;, incorrectAnswer1 = &#39;House address&#39;, incorrectAnswer2 = &#39;Bank codes&#39;, incorrectAnswer3 = &#39;Passwords&#39;)</span>
+<span class="c1">#         q9 = QA(question=&#39;What do we use for our databases?&#39;, correctAnswer=&#39;SQLAlchemy&#39;, incorrectAnswer1 = &#39;XML&#39;, incorrectAnswer2 = &#39;MongoDB&#39;, incorrectAnswer3 = &#39;NodeJS&#39;)</span>
+<span class="c1">#         q10 = QA(question=&#39;What would constitute as backend development?&#39;, correctAnswer=&#39;working with python to create things like a database.&#39;, incorrectAnswer1 = &#39;using HTML to create a webpage&#39;, incorrectAnswer2 = &#39;using CSS to style&#39;, incorrectAnswer3 = &#39;Deployment using a platform like AWS&#39;)</span>
+<span class="c1">#         q11 = QA(question=&#39;What language is typically used in frontend development?&#39;, correctAnswer=&#39;HTML&#39;, incorrectAnswer1 = &#39;Python&#39;, incorrectAnswer2 = &#39;Assembly&#39;, incorrectAnswer3 = &#39;C-&#39;)</span>
+<span class="c1">#         q12 = QA(question=&#39;What does AWS stand for?&#39;, correctAnswer=&#39;Amazon Web Services&#39;, incorrectAnswer1 = &#39;AWOOOOOOOGA&#39;, incorrectAnswer2 = &#39;Awsome Wall Seperator&#39;, incorrectAnswer3 = &#39;Amazonian World Services&#39;)</span>
+<span class="c1">#         q13 = QA(question=&#39;Which of these are NOT one of the 4 roles assigned to us in CSP?&#39;, correctAnswer=&#39;Deployment Manager&#39;, incorrectAnswer1 = &#39;Frontend Developer&#39;, incorrectAnswer2 = &#39;Backend developer&#39;, incorrectAnswer3 = &#39;Scrum Master&#39;)</span>
+<span class="c1">#         qAs = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13]</span>
+
+<span class="c1">#         &quot;&quot;&quot;Builds sample user/note(s) data&quot;&quot;&quot;</span>
+<span class="c1">#         for qA in qAs:</span>
+<span class="c1">#             try:</span>
+<span class="c1">#                 &#39;&#39;&#39;add a few 1 to 4 notes per user&#39;&#39;&#39;</span>
+<span class="c1">#                 for num in range(randrange(1, 4)):</span>
+<span class="c1">#                     note = &quot;#### &quot; + qA.question + &quot; note &quot; + str(num) + &quot;. \n Generated by test data.&quot;</span>
+<span class="c1">#                     qA.posts.append(Post(id=qA.id, note=note, image=&#39;ncs_logo.png&#39;))</span>
+<span class="c1">#                 &#39;&#39;&#39;add user/post data to table&#39;&#39;&#39;</span>
+<span class="c1">#                 qA.create()</span>
+<span class="c1">#             except IntegrityError:</span>
+<span class="c1">#                 &#39;&#39;&#39;fails with bad or duplicate data&#39;&#39;&#39;</span>
+<span class="c1">#                 db.session.remove()</span>
+<span class="c1">#                 print(f&quot;Records exist, duplicate email, or error: {qA.correctAnswer}&quot;)</span>
+            
+<span class="c1"># initQAs()</span>
+
+<span class="c1"># def create():</span>
+<span class="c1">#             &#39;&#39;&#39; Read data for json body &#39;&#39;&#39;</span>
+<span class="c1">#             body = request.get_json()</span>
+            
+            
+<span class="c1">#             # &#39;&#39;&#39; Avoid garbage in, error checking &#39;&#39;&#39;</span>
+<span class="c1">#             # # validate name</span>
+<span class="c1">#             question = body.get(&#39;question&#39;)</span>
+<span class="c1">#             # if question is None or len(question) &lt; 2:</span>
+<span class="c1">#             #     return {&#39;message&#39;: f&#39;Question is missing, or is less than 2 characters&#39;}, 400</span>
+<span class="c1">#             # # validate correct answer</span>
+<span class="c1">#             correctAnswer = body.get(&#39;correctAnswer&#39;)</span>
+<span class="c1">#             # if correctAnswer is None or len(correctAnswer) == 0:</span>
+<span class="c1">#             #     return {&#39;message&#39;: f&#39;answer is missing&#39;}, 400</span>
+<span class="c1">#             # &#39;&#39;&#39; #1: Key code block, setup USER OBJECT &#39;&#39;&#39;</span>
+<span class="c1">#             # uo = User(question=question, </span>
+<span class="c1">#             #           correctAnswer=correctAnswer)</span>
+<span class="c1">#             # # validate incorrect answers</span>
+<span class="c1">#             incorrectAnswer1 = body.get(&#39;incorrectAnswer1&#39;)</span>
+<span class="c1">#             # if incorrectAnswer1 is None or len(incorrectAnswer1) == 0:</span>
+<span class="c1">#             #     return {&#39;message&#39;: f&#39;answer is missing&#39;}, 400</span>
+<span class="c1">#             # &#39;&#39;&#39; #1: Key code block, setup USER OBJECT &#39;&#39;&#39;</span>
+<span class="c1">#             # uo = User(question=question, </span>
+<span class="c1">#             #           incorrectAnswer1=incorrectAnswer1)     </span>
+            
+<span class="c1">#             incorrectAnswer2 = body.get(&#39;incorrectAnswer2&#39;)</span>
+<span class="c1">#             # if incorrectAnswer2 is None or len(incorrectAnswer2) == 0:</span>
+<span class="c1">#             #     return {&#39;message&#39;: f&#39;answer is missing&#39;}, 400</span>
+<span class="c1">#             # &#39;&#39;&#39; #1: Key code block, setup USER OBJECT &#39;&#39;&#39;</span>
+<span class="c1">#             # uo = User(question=question, </span>
+<span class="c1">#             #           incorrectAnswer1=incorrectAnswer1,</span>
+<span class="c1">#             #           incorrectAnswer2=incorrectAnswer2)</span>
+                      
+<span class="c1">#             incorrectAnswer3 = body.get(&#39;incorrectAnswer3&#39;)</span>
+<span class="c1">#             # if incorrectAnswer3 is None or len(incorrectAnswer3) == 0:</span>
+<span class="c1">#             #     return {&#39;message&#39;: f&#39;answer is missing&#39;}, 400</span>
+<span class="c1">#             # &#39;&#39;&#39; #1: Key code block, setup USER OBJECT &#39;&#39;&#39;</span>
+<span class="c1">#             uo = QA(question=question, </span>
+<span class="c1">#                       correctAnswer=correctAnswer,</span>
+<span class="c1">#                       incorrectAnswer1=incorrectAnswer1,</span>
+<span class="c1">#                       incorrectAnswer2=incorrectAnswer2,</span>
+<span class="c1">#                       incorrectAnswer3=incorrectAnswer3)       </span>
+            
+<span class="c1">#             &#39;&#39;&#39; #2: Key Code block to add user to database &#39;&#39;&#39;</span>
+<span class="c1">#             # create user in database</span>
+<span class="c1">#             qA = uo.create()</span>
+<span class="c1">#             # success returns json of user</span>
+<span class="c1">#             if qA:</span>
+<span class="c1">#                 return jsonify(qA.read())</span>
+<span class="c1">#             # failure returns error</span>
+<span class="c1">#             return {&#39;message&#39;: f&#39;Processed {question}, format error&#39;}, 400        </span>
+<span class="c1"># def read():</span>
+<span class="c1">#             qAs = QA.query.all()    # read/extract all users from database</span>
+<span class="c1">#             random.shuffle(qAs)</span>
+<span class="c1">#             qA = qAs[0]</span>
+<span class="c1">#             # json_ready = [user.read() for user in users]  # prepare output in json</span>
+<span class="c1">#             return jsonify(qA.read())  # jsonify creates Flask response object, more specific to APIs than json.dumps</span>
+
+<span class="c1"># create()</span>
+<span class="c1"># read()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">RuntimeError</span>                              Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb Cell 1</span> in <span class="ansi-cyan-fg">&lt;cell line: 338&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=334&#39;&gt;335&lt;/a&gt;</span>             # json_ready = [user.read() for user in users]  # prepare output in json
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=335&#39;&gt;336&lt;/a&gt;</span>             return jsonify(qA.read())  # jsonify creates Flask response object, more specific to APIs than json.dumps
+<span class="ansi-green-fg">--&gt; &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=337&#39;&gt;338&lt;/a&gt;</span> create()
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=338&#39;&gt;339&lt;/a&gt;</span> read()
+
+<span class="ansi-green-intense-fg ansi-bold">/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb Cell 1</span> in <span class="ansi-cyan-fg">create</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=280&#39;&gt;281&lt;/a&gt;</span> def create():
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=281&#39;&gt;282&lt;/a&gt;</span>             &#39;&#39;&#39; Read data for json body &#39;&#39;&#39;
+<span class="ansi-green-fg">--&gt; &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=282&#39;&gt;283&lt;/a&gt;</span>             body = request.get_json()
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=284&#39;&gt;285&lt;/a&gt;</span>             # &#39;&#39;&#39; Avoid garbage in, error checking &#39;&#39;&#39;
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=285&#39;&gt;286&lt;/a&gt;</span>             # # validate name
+<span class="ansi-green-intense-fg ansi-bold">    &lt;a href=&#39;vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-03-17-Week25-hacks.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D?line=286&#39;&gt;287&lt;/a&gt;</span>             question = body.get(&#39;question&#39;)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/werkzeug/local.py:316</span>, in <span class="ansi-cyan-fg">_ProxyLookup.__get__</span><span class="ansi-blue-fg">(self, instance, owner)</span>
+<span class="ansi-green-intense-fg ansi-bold">    313</span>     return self
+<span class="ansi-green-intense-fg ansi-bold">    315</span> try:
+<span class="ansi-green-fg">--&gt; 316</span>     obj = instance._get_current_object()
+<span class="ansi-green-intense-fg ansi-bold">    317</span> except RuntimeError:
+<span class="ansi-green-intense-fg ansi-bold">    318</span>     if self.fallback is None:
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/werkzeug/local.py:513</span>, in <span class="ansi-cyan-fg">LocalProxy.__init__.&lt;locals&gt;._get_current_object</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    511</span>     obj = local.get()  # type: ignore[union-attr]
+<span class="ansi-green-intense-fg ansi-bold">    512</span> except LookupError:
+<span class="ansi-green-fg">--&gt; 513</span>     raise RuntimeError(unbound_message) from None
+<span class="ansi-green-intense-fg ansi-bold">    515</span> return get_name(obj)
+
+<span class="ansi-red-fg">RuntimeError</span>: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot; database dependencies to support sqliteDB examples &quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randrange</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">base64</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.exc</span> <span class="kn">import</span> <span class="n">IntegrityError</span>
+
+
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="kn">from</span> <span class="nn">flask_sqlalchemy</span> <span class="kn">import</span> <span class="n">SQLAlchemy</span>
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">jsonify</span>
+<span class="kn">from</span> <span class="nn">flask_restful</span> <span class="kn">import</span> <span class="n">Api</span><span class="p">,</span> <span class="n">Resource</span> <span class="c1"># used for REST API building</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">sqlite3</span>
+
+
+<span class="c1"># Setup of key Flask object (app)</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<span class="c1"># Setup SQLAlchemy object and properties for the database (db)</span>
+<span class="n">database</span> <span class="o">=</span> <span class="s1">&#39;sqlite:///QA.db&#39;</span>  <span class="c1"># path and filename of database</span>
+<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;SQLALCHEMY_TRACK_MODIFICATIONS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;SQLALCHEMY_DATABASE_URI&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">database</span>
+<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;SECRET_KEY&#39;</span>
+<span class="n">db</span> <span class="o">=</span> <span class="n">SQLAlchemy</span><span class="p">()</span>
+
+
+<span class="c1"># This belongs in place where it runs once per project</span>
+<span class="n">db</span><span class="o">.</span><span class="n">init_app</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+
+
+
+
+<span class="sd">&#39;&#39;&#39; Tutorial: https://www.sqlalchemy.org/library.html#tutorials, try to get into Python shell and follow along &#39;&#39;&#39;</span>
+
+<span class="c1"># Define the Post class to manage actions in &#39;posts&#39; table,  with a relationship to &#39;users&#39; table</span>
+<span class="k">class</span> <span class="nc">Post</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="n">__tablename__</span> <span class="o">=</span> <span class="s1">&#39;posts&#39;</span>
+    <span class="n">__table_args__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;extend_existing&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
+    <span class="c1"># Define the Notes schema</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">note</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Text</span><span class="p">,</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">,</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="c1"># Define a relationship in Notes Schema to userID who originates the note, many-to-one (many notes to one user)</span>
+    <span class="n">userID</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">db</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="s1">&#39;qAs.id&#39;</span><span class="p">))</span>
+
+    <span class="c1"># Constructor of a Notes object, initializes of instance variables within object</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">note</span><span class="p">,</span> <span class="n">image</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">userID</span> <span class="o">=</span> <span class="nb">id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">note</span> <span class="o">=</span> <span class="n">note</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="n">image</span>
+
+    <span class="c1"># Returns a string representation of the Notes object, similar to java toString()</span>
+    <span class="c1"># returns string</span>
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;Notes(&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;,&quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">note</span> <span class="o">+</span> <span class="s2">&quot;,&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">userID</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span>
+
+    <span class="c1"># CRUD create, adds a new record to the Notes table</span>
+    <span class="c1"># returns the object added or None in case of an error</span>
+    <span class="k">def</span> <span class="nf">create</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># creates a Notes object from Notes(db.Model) class, passes initializers</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>  <span class="c1"># add prepares to persist person object to Notes table</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>  <span class="c1"># SqlAlchemy &quot;unit of work pattern&quot; requires a manual commit</span>
+            <span class="k">return</span> <span class="bp">self</span>
+        <span class="k">except</span> <span class="n">IntegrityError</span><span class="p">:</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="c1"># CRUD read, returns dictionary representation of Notes object</span>
+    <span class="c1"># returns dictionary</span>
+    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># encode image</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">&#39;UPLOAD_FOLDER&#39;</span><span class="p">]</span>
+        <span class="n">file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">image</span><span class="p">)</span>
+        <span class="n">file_text</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span>
+        <span class="n">file_read</span> <span class="o">=</span> <span class="n">file_text</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">file_encode</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">encodebytes</span><span class="p">(</span><span class="n">file_read</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+            <span class="s2">&quot;userID&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">userID</span><span class="p">,</span>
+            <span class="s2">&quot;note&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">note</span><span class="p">,</span>
+            <span class="s2">&quot;image&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">image</span><span class="p">,</span>
+        <span class="p">}</span>
+
+
+<span class="c1"># Define the User class to manage actions in the &#39;users&#39; table</span>
+<span class="c1"># -- Object Relational Mapping (ORM) is the key concept of SQLAlchemy</span>
+<span class="c1"># -- a.) db.Model is like an inner layer of the onion in ORM</span>
+<span class="c1"># -- b.) User represents data we want to store, something that is built on db.Model</span>
+<span class="c1"># -- c.) SQLAlchemy ORM is layer on top of SQLAlchemy Core, then SQLAlchemy engine, SQL</span>
+
+
+
+
+
+
+
+<span class="k">class</span> <span class="nc">QA</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="n">__tablename__</span> <span class="o">=</span> <span class="s1">&#39;qAs&#39;</span>  <span class="c1"># table name is plural, class name is singular</span>
+    <span class="n">__table_args__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;extend_existing&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
+    <span class="c1"># Define the User schema with &quot;vars&quot; from object</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">_question</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">_correctAnswer</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">_incorrectAnswer1</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="n">_incorrectAnswer2</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="n">_incorrectAnswer3</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">nullable</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+
+    <span class="c1"># Defines a relationship between User record and Notes table, one-to-many (one user to many notes)</span>
+    <span class="n">posts</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">relationship</span><span class="p">(</span><span class="s2">&quot;Post&quot;</span><span class="p">,</span> <span class="n">cascade</span><span class="o">=</span><span class="s1">&#39;all, delete&#39;</span><span class="p">,</span> <span class="n">backref</span><span class="o">=</span><span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="n">lazy</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># constructor of a User object, initializes the instance variables within object (self)</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">question</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="p">,</span> <span class="n">incorrectAnswer1</span><span class="p">,</span> <span class="n">incorrectAnswer2</span><span class="p">,</span> <span class="n">incorrectAnswer3</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_question</span> <span class="o">=</span> <span class="n">question</span>    <span class="c1"># variables with self prefix become part of the object, </span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_correctAnswer</span> <span class="o">=</span> <span class="n">correctAnswer</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer1</span> <span class="o">=</span> <span class="n">incorrectAnswer1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer2</span> <span class="o">=</span> <span class="n">incorrectAnswer2</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer3</span> <span class="o">=</span> <span class="n">incorrectAnswer3</span>
+        
+
+
+    <span class="c1"># a name getter method, extracts name from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">question</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_question</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@question</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">question</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_question</span> <span class="o">=</span> <span class="n">name</span>
+    
+    <span class="c1"># a getter method, extracts email from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">correctAnswer</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_correctAnswer</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@correctAnswer</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">correctAnswer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_correctAnswer</span> <span class="o">=</span> <span class="n">correctAnswer</span>
+        
+    <span class="c1"># check if uid parameter matches user id in object, return boolean</span>
+    <span class="k">def</span> <span class="nf">is_uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_correctAnswer</span> <span class="o">==</span> <span class="n">correctAnswer</span>
+    
+        <span class="c1"># a getter method, extracts email from object</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer1</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer1</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@incorrectAnswer1</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer1</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer1</span> <span class="o">=</span> <span class="n">incorrectAnswer1</span>
+        
+    <span class="c1"># check if uid parameter matches user id in object, return boolean</span>
+    <span class="k">def</span> <span class="nf">is_uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer1</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer1</span> <span class="o">==</span> <span class="n">incorrectAnswer1</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer2</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer2</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@incorrectAnswer2</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer2</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer2</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer2</span> <span class="o">=</span> <span class="n">incorrectAnswer2</span>
+        
+    <span class="c1"># check if uid parameter matches user id in object, return boolean</span>
+    <span class="k">def</span> <span class="nf">is_uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer2</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer2</span> <span class="o">==</span> <span class="n">incorrectAnswer2</span>
+    
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer3</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer3</span>
+    
+    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="nd">@incorrectAnswer3</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">incorrectAnswer3</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer3</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer3</span> <span class="o">=</span> <span class="n">incorrectAnswer3</span>
+        
+    <span class="c1"># check if uid parameter matches user id in object, return boolean</span>
+    <span class="k">def</span> <span class="nf">is_uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">incorrectAnswer3</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer3</span> <span class="o">==</span> <span class="n">incorrectAnswer3</span>
+    
+
+    <span class="c1"># output content using str(object) in human readable form, uses getter</span>
+    <span class="c1"># output content using json dumps, this is ready for API response</span>
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+
+    <span class="c1"># CRUD create/add a new record to the table</span>
+    <span class="c1"># returns self or None on error</span>
+    <span class="k">def</span> <span class="nf">create</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># creates a person object from User(db.Model) class, passes initializers</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>  <span class="c1"># add prepares to persist person object to Users table</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>  <span class="c1"># SqlAlchemy &quot;unit of work pattern&quot; requires a manual commit</span>
+            <span class="k">return</span> <span class="bp">self</span>
+        <span class="k">except</span> <span class="n">IntegrityError</span><span class="p">:</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="c1"># CRUD read converts self to dictionary</span>
+    <span class="c1"># returns dictionary</span>
+    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="c1">#&quot;id&quot;: self.id,</span>
+            <span class="s2">&quot;question&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_question</span><span class="p">,</span>
+            <span class="s2">&quot;correctAnswer&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_correctAnswer</span><span class="p">,</span>
+            <span class="s2">&quot;incorrectAnswer1&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer1</span><span class="p">,</span>
+            <span class="s2">&quot;incorrectAnswer2&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer2</span><span class="p">,</span>
+            <span class="s2">&quot;incorrectAnswer3&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_incorrectAnswer3</span>
+        <span class="p">}</span>
+
+    <span class="c1"># CRUD update: updates user name, password, phone</span>
+    <span class="c1"># returns self</span>
+    <span class="k">def</span> <span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">question</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;only updates values with length&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">question</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">question</span> <span class="o">=</span> <span class="n">question</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">correctAnswer</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">correctAnswer</span> <span class="o">=</span> <span class="n">correctAnswer</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">incorrectAnswer1</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="n">incorrectAnswer1</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">incorrectAnswer2</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="n">incorrectAnswer2</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">incorrectAnswer3</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="n">incorrectAnswer3</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="c1"># CRUD delete: remove self</span>
+    <span class="c1"># None</span>
+    <span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+
+<span class="sd">&quot;&quot;&quot;Database Creation and Testing &quot;&quot;&quot;</span>
+
+
+<span class="c1"># Builds working data for testing</span>
+<span class="k">def</span> <span class="nf">initQAs</span><span class="p">():</span>
+    <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;Create database and tables&quot;&quot;&quot;</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">create_all</span><span class="p">()</span>
+        <span class="sd">&quot;&quot;&quot;Tester data for table&quot;&quot;&quot;</span>
+        <span class="n">q1</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What is a CPU?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;central processing unit&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;coolant protection unit&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;unit processor&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;man idk&#39;</span><span class="p">)</span>
+        <span class="n">q2</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What does HTML stand for?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Hypertext Markup Language&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;Hyperlink Maker Language&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Hyper Mail Markup&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Humphrey Man Table Lawnmower&#39;</span><span class="p">)</span>
+        <span class="n">q3</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What do we use AWS for?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Deployment&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;Fortnite&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Minecraft&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Java&#39;</span><span class="p">)</span>
+        <span class="n">q4</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;How do we access Linux on our machines?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;wsl&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;pylance&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Mongodb&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;ReactJS&#39;</span><span class="p">)</span>
+        <span class="n">q5</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;Who is our teacher?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;mr. yeung&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;jmort223&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;nathanial kim&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;sabine&#39;</span><span class="p">)</span>
+        <span class="n">q6</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What does FUBAR stand for?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Funked up beyond repair&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;Flipped u before reprimanding&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Family Under Bad Analogies Reviewed&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Fun Ultra Boat Also Rollerblades&#39;</span><span class="p">)</span>
+        <span class="n">q7</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;How many sprints have we gone through this year?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;23&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;18&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;52&#39;</span><span class="p">)</span>
+        <span class="n">q8</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;Which is NOT an example of proper PII?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Your car&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;House address&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Bank codes&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Passwords&#39;</span><span class="p">)</span>
+        <span class="n">q9</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What do we use for our databases?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;SQLAlchemy&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;XML&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;MongoDB&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;NodeJS&#39;</span><span class="p">)</span>
+        <span class="n">q10</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What would constitute as backend development?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;working with python to create things like a database.&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;using HTML to create a webpage&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;using CSS to style&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Deployment using a platform like AWS&#39;</span><span class="p">)</span>
+        <span class="n">q11</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What language is typically used in frontend development?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;HTML&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;Python&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Assembly&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;C-&#39;</span><span class="p">)</span>
+        <span class="n">q12</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;What does AWS stand for?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Amazon Web Services&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;AWOOOOOOOGA&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Awsome Wall Seperator&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Amazonian World Services&#39;</span><span class="p">)</span>
+        <span class="n">q13</span> <span class="o">=</span> <span class="n">QA</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="s1">&#39;Which of these are NOT one of the 4 roles assigned to us in CSP?&#39;</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="o">=</span><span class="s1">&#39;Deployment Manager&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="s1">&#39;Frontend Developer&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="s1">&#39;Backend developer&#39;</span><span class="p">,</span> <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="s1">&#39;Scrum Master&#39;</span><span class="p">)</span>
+        <span class="n">qAs</span> <span class="o">=</span> <span class="p">[</span><span class="n">q1</span><span class="p">,</span> <span class="n">q2</span><span class="p">,</span> <span class="n">q3</span><span class="p">,</span> <span class="n">q4</span><span class="p">,</span> <span class="n">q5</span><span class="p">,</span> <span class="n">q6</span><span class="p">,</span> <span class="n">q7</span><span class="p">,</span> <span class="n">q8</span><span class="p">,</span> <span class="n">q9</span><span class="p">,</span> <span class="n">q10</span><span class="p">,</span> <span class="n">q11</span><span class="p">,</span> <span class="n">q12</span><span class="p">,</span> <span class="n">q13</span><span class="p">]</span>
+
+        <span class="sd">&quot;&quot;&quot;Builds sample user/note(s) data&quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">qA</span> <span class="ow">in</span> <span class="n">qAs</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="sd">&#39;&#39;&#39;add a few 1 to 4 notes per user&#39;&#39;&#39;</span>
+                <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">randrange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">)):</span>
+                    <span class="n">note</span> <span class="o">=</span> <span class="s2">&quot;#### &quot;</span> <span class="o">+</span> <span class="n">qA</span><span class="o">.</span><span class="n">question</span> <span class="o">+</span> <span class="s2">&quot; note &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;. </span><span class="se">\n</span><span class="s2"> Generated by test data.&quot;</span>
+                    <span class="n">qA</span><span class="o">.</span><span class="n">posts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Post</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="n">qA</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">note</span><span class="o">=</span><span class="n">note</span><span class="p">,</span> <span class="n">image</span><span class="o">=</span><span class="s1">&#39;ncs_logo.png&#39;</span><span class="p">))</span>
+                <span class="sd">&#39;&#39;&#39;add user/post data to table&#39;&#39;&#39;</span>
+                <span class="n">qA</span><span class="o">.</span><span class="n">create</span><span class="p">()</span>
+            <span class="k">except</span> <span class="n">IntegrityError</span><span class="p">:</span>
+                <span class="sd">&#39;&#39;&#39;fails with bad or duplicate data&#39;&#39;&#39;</span>
+                <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Records exist, duplicate email, or error: </span><span class="si">{</span><span class="n">qA</span><span class="o">.</span><span class="n">correctAnswer</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            
+<span class="n">initQAs</span><span class="p">()</span>
+
+<span class="n">database</span> <span class="o">=</span> <span class="s1">&#39;instance/QA.db&#39;</span>
+
+<span class="k">def</span> <span class="nf">create</span><span class="p">():</span>
+    <span class="n">question</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;please enter a question&quot;</span><span class="p">)</span>
+    <span class="n">correctAnswer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;please enter the correct answer&quot;</span><span class="p">)</span>
+    <span class="n">incorrectAnswer1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;please enter an incorrect answer&quot;</span><span class="p">)</span>
+    <span class="n">incorrectAnswer2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;please enter another incorrect answer&quot;</span><span class="p">)</span>
+    <span class="n">incorrectAnswer3</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;please enter the last incorrect answer&quot;</span><span class="p">)</span>
+
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+    <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;INSERT INTO qAs (_question, _correctAnswer, _incorrectAnswer1, _incorrectAnswer2, _incorrectAnswer3) VALUES (?, ?, ?, ?, ?)&quot;</span><span class="p">,</span> <span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">correctAnswer</span><span class="p">,</span> <span class="n">incorrectAnswer1</span><span class="p">,</span> <span class="n">incorrectAnswer2</span><span class="p">,</span> <span class="n">incorrectAnswer3</span><span class="p">))</span>
+        
+        <span class="c1"># Commit the changes to the database</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A new question record </span><span class="si">{</span><span class="n">question</span><span class="si">}</span><span class="s2"> has been created&quot;</span><span class="p">)</span>
+                
+    <span class="k">except</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Error while executing the INSERT:&quot;</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span>
+
+    <span class="c1"># Close the cursor and connection objects</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            
+
+<span class="k">def</span> <span class="nf">read</span><span class="p">():</span>
+    <span class="c1"># Connect to the database file</span>
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+
+    <span class="c1"># Create a cursor object to execute SQL queries</span>
+    <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    
+    <span class="c1"># Execute a SELECT statement to retrieve data from a table</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">&#39;SELECT * FROM qAs&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+    <span class="c1"># Print the results</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Table is empty&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+
+    <span class="c1"># Close the cursor and connection objects</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+        <span class="n">question</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;what question do you want to update?&quot;</span><span class="p">)</span>
+        <span class="n">correctAnswer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;what should the correct answer be?&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">correctAnswer</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;invalid answer&quot;</span>
+            <span class="n">correctAnswer</span> <span class="o">=</span> <span class="s2">&quot;NULL&quot;</span>
+        
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;correct answer updated!&quot;</span>
+
+        <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+        
+        <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+        
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># Execute an SQL command to update data in a table</span>
+            <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;UPDATE qAs SET _correctAnswer = ? WHERE _question = ?&quot;</span><span class="p">,</span> <span class="p">(</span><span class="n">correctAnswer</span><span class="p">,</span> <span class="n">question</span><span class="p">))</span>
+            <span class="k">if</span> <span class="n">cursor</span><span class="o">.</span><span class="n">rowcount</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="c1"># The uid was not found in the table</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No question </span><span class="si">{</span><span class="n">question</span><span class="si">}</span><span class="s2"> was not found in the table&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The row with question </span><span class="si">{</span><span class="n">question</span><span class="si">}</span><span class="s2"> the correct answer has been </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Error while executing the UPDATE:&quot;</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span>
+
+        <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        
+<span class="k">def</span> <span class="nf">delete</span><span class="p">():</span>
+        <span class="n">question</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;enter a question to delete&quot;</span><span class="p">)</span>
+        <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">database</span><span class="p">)</span>
+
+        <span class="c1"># Create a cursor object to execute SQL commands</span>
+        <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;DELETE FROM qAs WHERE _question = ?&quot;</span><span class="p">,</span> <span class="p">(</span><span class="n">question</span><span class="p">,))</span>
+            <span class="k">if</span> <span class="n">cursor</span><span class="o">.</span><span class="n">rowcount</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="c1"># The uid was not found in the table</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No question </span><span class="si">{</span><span class="n">question</span><span class="si">}</span><span class="s2"> was not found in the table&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># The uid was found in the table and the row was deleted</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The row with </span><span class="si">{</span><span class="n">question</span><span class="si">}</span><span class="s2"> was successfully deleted&quot;</span><span class="p">)</span>
+            <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">Error</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Error while executing the DELETE:&quot;</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span>
+        
+        <span class="c1"># Close the cursor and connection objects</span>
+        <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>       
+
+<span class="c1"># Menu, to run other cells from one control point</span>
+<span class="k">def</span> <span class="nf">menu</span><span class="p">():</span>
+    <span class="n">operation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter: (C)reate (R)ead (U)pdate or (D)elete&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">operation</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;c&#39;</span><span class="p">:</span>
+        <span class="n">create</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">operation</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;r&#39;</span><span class="p">:</span>
+        <span class="n">read</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">operation</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;u&#39;</span><span class="p">:</span>
+        <span class="n">update</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">operation</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;d&#39;</span><span class="p">:</span>
+        <span class="n">delete</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">operation</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="c1"># Escape Key</span>
+        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Please enter c, r, u, or d&quot;</span><span class="p">)</span> 
+    <span class="n">menu</span><span class="p">()</span> <span class="c1"># recursion, repeat menu</span>
+        
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">menu</span><span class="p">()</span> <span class="c1"># start menu</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Perform Jupyter &#39;Run All&#39; prior to starting menu&quot;</span><span class="p">)</span>
+
+
+<span class="c1"># def create():</span>
+<span class="c1">#     body = request.get_json()</span>
+<span class="c1">#     question = request.get(&quot;question&quot;)</span>
+<span class="c1">#     correctAnswer = body.get(&quot;correctAnswer&quot;)</span>
+<span class="c1">#     incorrectAnswer1 = body.get(&quot;incorrectAnswer1&quot;)</span>
+<span class="c1">#     incorrectAnswer2 = body.get(&quot;incorrectAnswer2&quot;)</span>
+<span class="c1">#     incorrectAnswer3 = body.get(&quot;incorrectAnswer3&quot;)</span>
+<span class="c1">#     uo = QA(question = question,</span>
+<span class="c1">#             incorrectAnswer1= incorrectAnswer1,</span>
+<span class="c1">#             incorrectAnswer2= incorrectAnswer2,</span>
+<span class="c1">#             incorrectAnswer3= incorrectAnswer3)</span>
+<span class="c1">#     qA = uo.create()</span>
+<span class="c1">#     if qA:</span>
+<span class="c1">#         return jsonify(qA.read())</span>
+<span class="c1">#     else:</span>
+<span class="c1">#         return  {&#39;message&#39;: f&#39;Processed {question}, format error&#39;}, 400 </span>
+
+
+<span class="c1"># read()</span>
+    <span class="c1"># with app.app_context:</span>
+    <span class="c1">#     qAs = QA.query.all()</span>
+    <span class="c1"># random.shuffle(qAs)</span>
+    <span class="c1"># qA = qAs[0]</span>
+    <span class="c1"># return jsonify(qA.read())</span>
+
+    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>A new user record TESTER QUESTION HAHA has been created
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/turtle/2023/03/17/Week25-hacks.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/turtle/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://h4seeb-cmd.github.io/turtle/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/turtle/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Turtles are pretty cool</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
