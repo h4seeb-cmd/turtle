@@ -95,7 +95,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      15 min read
+      16 min read
     
 </span></p>
 
@@ -461,21 +461,21 @@ There are 2 players in the top 10% tallest.
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="c1">#Create a NumPy array of the x</span>
-<span class="n">metascore</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">99</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">85</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+<span class="n">metascore</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">99</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">85</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">56</span><span class="p">,])</span>
 
 <span class="c1"># Calculate the percentile rank of x</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">metascore</span><span class="p">,</span> <span class="p">[</span><span class="mi">99</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">metascore</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">50</span><span class="p">])</span>
 
 <span class="c1"># Print the results</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The highest rated album on metacritic is: "</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The lowest rated album is"</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The highest rated album on metacritic is rated "</span><span class="p">,</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The 75th percentile rated album is"</span><span class="p">,</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The 50th percentile rated album is"</span><span class="p">,</span> <span class="n">y</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
 
 <span class="c1"># Determine the number of players who are in the top 10% x</span>
 <span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">metascore</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">metascore</span><span class="p">[</span><span class="n">metascore</span> <span class="o">&gt;=</span> <span class="n">t</span><span class="p">]</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"There are"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">z</span><span class="p">),</span> <span class="s2">"players in the top 10% (x)."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"There are"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">z</span><span class="p">),</span> <span class="s2">"albums in the top 10% (x)."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -488,10 +488,10 @@ There are 2 players in the top 10% tallest.
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>The highest rated album on metacritic is:  192.5 
- 198.0 
-The lowest rated album is 202.0 
-There are 1 players in the top 10% (x).
+<pre>The highest rated album on metacritic is rated  99.0 
+The 75th percentile rated album is 56.0 
+The 50th percentile rated album is 30.0 
+There are 2 albums in the top 10% (x).
 </pre>
 </div>
 </div>
@@ -755,38 +755,12 @@ Stats for Ja Morant:
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb Cell 31</span> in <span class="ansi-cyan-fg">&lt;cell line: 4&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb#X42sdnNjb2RlLXJlbW90ZQ%3D%3D?line=1'&gt;2&lt;/a&gt;</span> df = pd.read_csv('/home/m1rza/vscode/turtle/_notebooks/files/nba_player_statistics.csv')
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb#X42sdnNjb2RlLXJlbW90ZQ%3D%3D?line=2'&gt;3&lt;/a&gt;</span> # Load CSV file into a Pandas DataFrame
-<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb#X42sdnNjb2RlLXJlbW90ZQ%3D%3D?line=3'&gt;4&lt;/a&gt;</span> player_name = input("Enter player name: Patrick Beverly")
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb#X42sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4'&gt;5&lt;/a&gt;</span> # Get player name input from user
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/m1rza/vscode/turtle/_notebooks/2023-04-19-tri3_lesson.ipynb#X42sdnNjb2RlLXJlbW90ZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span> player_stats = df[df['NAME'] == player_name]
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/ipykernel/kernelbase.py:1075</span>, in <span class="ansi-cyan-fg">Kernel.raw_input</span><span class="ansi-blue-fg">(self, prompt)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1071</span> if not self._allow_stdin:
-<span class="ansi-green-intense-fg ansi-bold">   1072</span>     raise StdinNotImplementedError(
-<span class="ansi-green-intense-fg ansi-bold">   1073</span>         "raw_input was called, but this frontend does not support input requests."
-<span class="ansi-green-intense-fg ansi-bold">   1074</span>     )
-<span class="ansi-green-fg">-&gt; 1075</span> return self._input_request(
-<span class="ansi-green-intense-fg ansi-bold">   1076</span>     str(prompt),
-<span class="ansi-green-intense-fg ansi-bold">   1077</span>     self._parent_ident["shell"],
-<span class="ansi-green-intense-fg ansi-bold">   1078</span>     self.get_parent("shell"),
-<span class="ansi-green-intense-fg ansi-bold">   1079</span>     password=False,
-<span class="ansi-green-intense-fg ansi-bold">   1080</span> )
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/ipykernel/kernelbase.py:1120</span>, in <span class="ansi-cyan-fg">Kernel._input_request</span><span class="ansi-blue-fg">(self, prompt, ident, parent, password)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1117</span>             break
-<span class="ansi-green-intense-fg ansi-bold">   1118</span> except KeyboardInterrupt:
-<span class="ansi-green-intense-fg ansi-bold">   1119</span>     # re-raise KeyboardInterrupt, to truncate traceback
-<span class="ansi-green-fg">-&gt; 1120</span>     raise KeyboardInterrupt("Interrupted by user") from None
-<span class="ansi-green-intense-fg ansi-bold">   1121</span> except Exception:
-<span class="ansi-green-intense-fg ansi-bold">   1122</span>     self.log.warning("Invalid Message:", exc_info=True)
-
-<span class="ansi-red-fg">KeyboardInterrupt</span>: Interrupted by user</pre>
+Stats for Stephen Curry:
+    PPG  RPG  APG  P+R+A
+6  29.0  4.5  4.0   37.5
+</pre>
 </div>
 </div>
 
@@ -1059,12 +1033,65 @@ Standard Deviation Minutes:  12.844102823170283
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="c1"># read the CSV file</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"blank.csv"</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"/home/m1rza/vscode/turtle/_notebooks/files/games.csv"</span><span class="p">)</span>
 <span class="c1"># display the data in a table</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>        app_id                                         title date_release  \
+0        10090                    Call of Duty: World at War   2008-11-18   
+1        13500             Prince of Persia: Warrior Within™   2008-11-21   
+2        22364                       BRINK: Agents of Change   2011-08-03   
+3       113020                  Monaco: What's Yours Is Mine   2013-04-24   
+4       226560                            Escape Dead Island   2014-11-18   
+...        ...                                           ...          ...   
+46063   758560                                  Versus World   2018-01-30   
+46064   886910  Bus Simulator 18 - Country Skin &amp; Decal Pack   2018-07-05   
+46065  1477870                                     Elemental   2021-03-30   
+46066  1638430                                  Axial Disc 1   2021-08-15   
+46067  2277670                          Hank: Straightjacket   2023-02-01   
+
+        win    mac  linux           rating  positive_ratio  user_reviews  \
+0      True  False  False    Very Positive              92         37039   
+1      True  False  False    Very Positive              84          2199   
+2      True  False  False         Positive              85            21   
+3      True   True   True    Very Positive              92          3722   
+4      True  False  False            Mixed              61           873   
+...     ...    ...    ...              ...             ...           ...   
+46063  True  False  False    Very Positive              88            87   
+46064  True  False  False    Very Positive              88           118   
+46065  True  False  False  Mostly Positive              78            14   
+46066  True  False  False         Positive              95            42   
+46067  True  False  False            Mixed              66            12   
+
+       price_final  price_original  discount  steam_deck  
+0            19.99           19.99       0.0        True  
+1             9.99            9.99       0.0        True  
+2             2.99            2.99       0.0        True  
+3            14.99           14.99       0.0        True  
+4            14.99           14.99       0.0        True  
+...            ...             ...       ...         ...  
+46063         0.00            0.00       0.0        True  
+46064         0.00            0.00       0.0        True  
+46065         0.00            0.00       0.0        True  
+46066         0.00            0.00       0.0        True  
+46067         0.00            0.00       0.0        True  
+
+[46068 rows x 13 columns]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -1079,11 +1106,16 @@ Standard Deviation Minutes:  12.844102823170283
 </h2>
 <p>What is NumPy and how is it used in data analysis?
 NumPy is a data analysis library that can be used to manipulate arrays and sets of numerical data.</p>
-<p>What is Pandas and how is it used in data analysis?</p>
-<p>How is NunPy different than Pandas for data analysis?</p>
-<p>What is a DataFrame?</p>
-<p>What are some common operations you can perform with NunPy?</p>
-<p>How Can You Incorporate Either of these Data Analysis Tools (NunPy, Pandas) into your project?</p>
+<p>What is Pandas and how is it used in data analysis?
+Pandas is a python library that's used for more visual information, rather than numerical.</p>
+<p>How is NunPy different than Pandas for data analysis?
+NumPy is used for manipulating numerical values, while Pandas is used to manipulate and analyze data.</p>
+<p>What is a DataFrame?
+A DataFrame is a 2-dimensional labeled data structure with columns of different types and information.</p>
+<p>What are some common operations you can perform with NunPy?
+Some common NumPy operations include: ray creation, indexing, mathematical operations, and slicing</p>
+<p>How Can You Incorporate Either of these Data Analysis Tools (NunPy, Pandas) into your project?
+I can use NumPy to analyze different scores, and I could use that for a leaderboard.</p>
 
 </div>
 </div>
