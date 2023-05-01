@@ -95,7 +95,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      5 min read
     
 </span></p>
 
@@ -319,7 +319,7 @@ CF-RAY: -
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Status code: 200
-Headers: {'Date': 'Wed, 26 Apr 2023 21:17:51 GMT', 'Expires': '-1', 'Cache-Control': 'private, max-age=0', 'Content-Type': 'text/html; charset=ISO-8859-1', 'Content-Security-Policy-Report-Only': "object-src 'none';base-uri 'self';script-src 'nonce-5O1qZ3GmE1XQaEOdfuKDtA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp", 'P3P': 'CP="This is not a P3P policy! See g.co/p3phelp for more info."', 'Content-Encoding': 'gzip', 'Server': 'gws', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': '1P_JAR=2023-04-26-21; expires=Fri, 26-May-2023 21:17:51 GMT; path=/; domain=.google.com; Secure, AEC=AUEFqZeADJ-Bl5EXJo_H95Igtol-eaAddvyAoIXWpEWKCjt1pExsqBNV9Wg; expires=Mon, 23-Oct-2023 21:17:51 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=511=tNifUUWPcfgUYkLZ2gI64nyOm03ImVURI0Ye0s3EmH2pERIpK5VFyC-ozJ6HjD3UZofZsi-et2I3o3iEtK-WTiwA7tWNaowfi7hj-PToWYOCkJYTE2meLDWlGo3CwMlaEjTTfCJQ3U35RBTrRjpRX6U3reQuKu0ooLnOp2DL_4Y; expires=Thu, 26-Oct-2023 21:17:51 GMT; path=/; domain=.google.com; HttpOnly', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Headers: {'Date': 'Mon, 01 May 2023 06:28:56 GMT', 'Expires': '-1', 'Cache-Control': 'private, max-age=0', 'Content-Type': 'text/html; charset=ISO-8859-1', 'Content-Security-Policy-Report-Only': "object-src 'none';base-uri 'self';script-src 'nonce-Uu1v_59mUOloEhr3asNxHw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp", 'P3P': 'CP="This is not a P3P policy! See g.co/p3phelp for more info."', 'Content-Encoding': 'gzip', 'Server': 'gws', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': '1P_JAR=2023-05-01-06; expires=Wed, 31-May-2023 06:28:56 GMT; path=/; domain=.google.com; Secure, AEC=AUEFqZeQUwzmoQc2Zg0UvLBzbH8xlQl8Dj-TkOqdEOx-7PBVYx67bvwnw4c; expires=Sat, 28-Oct-2023 06:28:56 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=511=JtXMys-FyetlTDfdF9d_NP05b_huDxND3M1LPDgZLxflrsgdp9zUWMsLr8onR4LghC4hbLue15-xRuWZUTX_d7kpHaNOXq3rXDI2A0VUTwpABVIY4OzNY79xtcBzmC5eu-dC2Q9fOJ3gqh0lQU2qkb_mrf8qK4UB0hbUSbdn9N4; expires=Tue, 31-Oct-2023 06:28:56 GMT; path=/; domain=.google.com; HttpOnly', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
 Response text: &lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schema.org/WebPage" lang="en"&gt;&lt;head&gt;&lt;meta content
 </pre>
 </div>
@@ -354,6 +354,31 @@ Response text: &lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schem
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Cool site&lt;/title&gt;
+&lt;meta name="description" content="cool site for apcsp"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello, this is my cool site. Check out my products:
+&lt;a href="/products"&gt;Products!!&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -407,10 +432,14 @@ Response text: &lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schem
 <a class="anchor" href="#Check-In" aria-hidden="true"><span class="octicon octicon-link"></span></a>Check In<a class="anchor-link" href="#Check-In"> </a>
 </h2>
 <ol>
-<li>Research 1 HTTP header and describe, in detail, its purpose.</li>
-<li>Write a line in a sample NGINX configuration that will add that specific header to the <code>/information</code> location</li>
-<li>Explain the purpose of the load balancing performed by NGINX</li>
-<li>Modify the following code block to obtain the value of the secret header on <code>/products</code> of the AWS site</li>
+<li>Research 1 HTTP header and describe, in detail, its purpose. 
+Content-Length specifies the length of the content being sent in the request or response.</li>
+<li>Write a line in a sample NGINX configuration that will add that specific header to the <code>/information</code> location<div class="highlight"><pre><span></span><span class="k">add_header</span> <span class="s">Content-Length</span> <span class="nv">$content_length</span><span class="p">;</span>
+</pre></div>
+</li>
+<li>Explain the purpose of the load balancing performed by NGINX: NGINX functions as a reverse proxy, and therefore, it is crucial to have load balancing to effectively distribute the incoming traffic across multiple servers, ensuring optimal performance and seamless operation.</li>
+<li>Modify the following code block to obtain the value of the secret header on <code>/products</code> of the AWS site
+See below:</li>
 </ol>
 
 </div>
@@ -425,9 +454,9 @@ Response text: &lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schem
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">aws</span> <span class="o">=</span> <span class="s2">"3.130.255.192"</span>
 
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"http://"</span> <span class="o">+</span> <span class="n">aws</span> <span class="o">+</span> <span class="s2">"/products"</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"http://"</span> <span class="o">+</span> <span class="n">aws</span><span class="o">+</span> <span class="s2">"/products"</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The secret header is:"</span><span class="p">,</span> <span class="s2">"..."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The secret header is:"</span><span class="p">,</span> <span class="n">response</span><span class="o">.</span><span class="n">headers</span><span class="p">[</span><span class="s1">'X-Cooler-Header'</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -440,7 +469,7 @@ Response text: &lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schem
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>The secret header is: ...
+<pre>The secret header is: This is my secret header!
 </pre>
 </div>
 </div>
@@ -481,7 +510,7 @@ CORS stands for Cross Origin Resource Sharing, and it's a security feature that 
 <li>Describe how you would be able to implement CORS into your own websites</li>
 <li>Describe why you would want to implement CORS into your own websites:
 Without CORS, API requests are not possible, as API requests use Cross Origin requests.</li>
-<li>How could use CORS to benefit yourself in the future?: I could use CORS to h
+<li>How could use CORS to benefit yourself in the future?: I could use CORS to create a website that allows the user to access multiple domains without sacrificing security in any way.
 Total: 0.2 points</li>
 </ol>
 <h1 id="KASM-Hacks">
@@ -489,11 +518,15 @@ Total: 0.2 points</li>
 </h1>
 <ol>
 <li>What is the purpose of "sudo" when running commands in terminal?
-sudo is used to provide admin access to certain </li>
-<li>What are some commands which allow us to look at how the storage of a machine is set up as?</li>
-<li>What do you think are some alternatives to running "curl -O" to get the zip file for KASM?</li>
-<li>What kind of commands do you think the "install.sh" command has and why is it necessary to call it?</li>
-<li>Explain in at least 3-4 sentences how deploying KASM is related to/requires other topics talked about in the lesson and/or potential ways to add things mentioned in the lesson to this guide.</li>
+sudo is used to provide admin access in order to run certain commands in bash.</li>
+<li>What are some commands which allow us to look at how the storage of a machine is set up as?
+The df command provides information about the amount of free and used disk space on each file system that is mounted, while du displays the disk usage of files and directories. On the other hand, lsblk lists details about all the available or specific devices on the system.</li>
+<li>What do you think are some alternatives to running "curl -O" to get the zip file for KASM?
+wget allows the user to download the zip file directly into the desired directory.</li>
+<li>What kind of commands do you think the "install.sh" command has and why is it necessary to call it?
+It is possible that the "install.sh" command consists of instructions for the installation and setup of KASM on the server. These instructions could involve the downloading and extracting the KASM zip file, setting up any prerequisites required, and configuring the KASM service to automatically start up. To ensure the proper installation and configuration of KASM, executing the "install.sh" command is necessary.</li>
+<li>Explain in at least 3-4 sentences how deploying KASM is related to/requires other topics talked about in the lesson and/or potential ways to add things mentioned in the lesson to this guide.
+In order to deploy KASM, it might be necessary to first configure firewall rules in order to permit communication to and from the KASM service. Next is setting up SSL/TLS certificates for secure communication, and managing user accounts and permissions. As a side note, the integration of KASM with other security tools such as IDS/IPS or SIEM systems can potentially boost its functionalities and offer a more complete security solution. To expand the guide to encompass these topics, one can add sections on firewall configuration, SSL/TLS certificates, user administration, and integration of KASM with other security tools.</li>
 </ol>
 <p>Total: 0.2 points</p>
 <h1 id="AWS/RDS-Hacks">
