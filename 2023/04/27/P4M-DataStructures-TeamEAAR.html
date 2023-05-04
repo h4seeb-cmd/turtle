@@ -999,16 +999,16 @@ A 2D array is different from a 1D array or list in that it represents a table or
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grocery_dict</span> <span class="o">=</span> <span class="p">{}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">playlist</span> <span class="o">=</span> <span class="p">{}</span>
 
 <span class="c1"># ask the user to enter grocery items and their prices</span>
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter an item for your grocery list (or &#39;done&#39; to exit): &quot;</span><span class="p">)</span>
+    <span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter a song for your playlist: &quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">item</span> <span class="o">==</span> <span class="s2">&quot;done&quot;</span><span class="p">:</span>
         <span class="k">break</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">price</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter the price of </span><span class="si">{}</span><span class="s2">: &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">item</span><span class="p">)))</span>
-        <span class="n">grocery_dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="n">price</span>
+        <span class="n">place</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter the place of </span><span class="si">{}</span><span class="s2">: &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">item</span><span class="p">)))</span>
+        <span class="n">place</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="n">place</span>
 
 <span class="c1"># print the grocery list and total cost</span>
 <span class="n">total_cost</span> <span class="o">=</span> <span class="n">price</span>
