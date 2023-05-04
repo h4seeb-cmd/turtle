@@ -27,12 +27,12 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 - Input devices: Things that provide input, such as keyboards, mice, etc.
 - Output devices: Things that display the result of what was inputted, display screen.
 - Program File: A file that one can add code on.
-- Program Code: Code that is inside a Program File. When ran, it can 
-- Processes
-- Ports
-- Data File
-- Inspect Running Code
-- Inspect Variables
+- Program Code: Code that is inside a Program File. When ran, it can load programs.
+- Processes: Instances that the computer executes which then takes up computing space and memory.
+- Ports: A set of numbers that represent ends of a network connection.
+- Data File: A file that holds a type of data.
+- Inspect Running Code: This refers to the process of examining the code of a running computer program to understand its behavior, identify bugs, or make improvements. This can be done using tools such as debuggers, profiling tools, or logging frameworks.
+- Inspect Variables: This refers to the process of examining the values of variables used by a computer program at a particular point in time. This can be done using tools such as debuggers or logging frameworks. 
 
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpeg)
@@ -52,16 +52,17 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Bandwidth is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
-    - Path 
-    - Route
-    - Computer System
-    - Computer Device
-    - Bandwidth
-    - Computer Network
+    - Path: A computer network is a type of computing system. A path between two computing devices on a computer network (a sender and a receiver) is a sequence of directly connected computing devices that begins at the sender and ends at the receiver.
+    - Route: Routing is the process of finding a path from sender to receiver. The bandwidth of a computer network is the maximum amount of data that can be sent in a fixed amount of time.
+    - Computer System: A computing system is a group of computing devices and programs working together for a common purpose.
+    - Computer Device: A computing device is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
+    - Bandwidth: Bandwidth is usually measured in bits per second.
+    - Computer Network: A computer network is a group of interconnected computing devices capable of sending or receiving data.
 
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
+![True or False]({{site.baseurl}}/images/tof.png)
 
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
@@ -77,11 +78,10 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - IP, TCP and UDP are common protocols used on the internet.
     - The world wide web is a system of linked pages, programs, and files.
     - HTTP is a protocol used by the world wide web
-    - The world wide web uses the internet
+    - The world wide web uses the internet to connect pages.
 
 - Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas
 
-![Full Stack]({{site.baseurl}}/images/fullstack.png)
 
 
 - Often we draw pictures of machines communicating over the Internet with arrows.  However, the real communication goes through protocol layers and the machine and then is trasported of the network.   For College Board and future Computer Knowledge you should become familiar with the following ...
