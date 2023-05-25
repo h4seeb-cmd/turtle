@@ -4,7 +4,6 @@ comments: true
 layout: base
 description: Use JavaScript without external libararies to display all the animations in a sprite sheet.
 permalink: /frontend/mario
-image: /images/mario_animation.png
 categories: []
 tags: [javascript]
 ---
@@ -12,7 +11,7 @@ tags: [javascript]
 <!-- Hack 2: make you own sprite display -->
 <!-- Hack 3: come up with a new event or sequence, reference: https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event-->
 
-{% include nav_frontend.html %}
+
 
 <!---
 Sprite files are a collection of animations that are combined into a single file. The _data/mario.yml file has metadata description for the sprit file.  Each sprite is seperated by pixels horizontally and veritically.
